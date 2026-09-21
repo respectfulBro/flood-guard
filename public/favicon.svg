@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <linearGradient id="water" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f766e;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#14b8a6;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <!-- Water wave background -->
+  <path d="M0 60 Q25 40 50 55 T100 45 V100 H0 Z" fill="url(#water)" opacity="0.9"/>
+  <!-- Shield -->
+  <path d="M50 15 L85 35 L85 65 Q85 85 50 95 Q15 85 15 65 L15 35 Z" fill="#0f766e"/>
+  <!-- Water drop in shield -->
+  <path d="M50 30 Q55 35 50 48 Q45 35 50 30" fill="#14b8a6"/>
+  <!-- Alert/water lines -->
+  <path d="M50 55 L50 75" stroke="#14b8a6" stroke-width="3" stroke-linecap="round"/>
+  <path d="M42 65 L58 65" stroke="#14b8a6" stroke-width="3" stroke-linecap="round"/>
+</svg>

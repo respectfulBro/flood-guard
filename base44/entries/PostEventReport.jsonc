@@ -1,0 +1,38 @@
+{
+  "name": "PostEventReport",
+  "type": "object",
+  "properties": {
+    "area_name": {
+      "type": "string"
+    },
+    "country": {
+      "type": "string"
+    },
+    "flooded": {
+      "type": "boolean"
+    },
+    "event_date": {
+      "type": "string",
+      "format": "date"
+    },
+    "description": {
+      "type": "string"
+    },
+    "photo_url": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "pending",
+        "approved",
+        "rejected"
+      ],
+      "default": "pending"
+    }
+  },
+  "required": [
+    "area_name",
+    "flooded"
+  ]
+}

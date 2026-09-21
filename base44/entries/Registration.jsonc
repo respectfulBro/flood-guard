@@ -1,0 +1,43 @@
+{
+  "name": "Registration",
+  "type": "object",
+  "properties": {
+    "phone_number": {
+      "type": "string"
+    },
+    "area_name": {
+      "type": "string"
+    },
+    "country": {
+      "type": "string"
+    },
+    "language": {
+      "type": "string",
+      "enum": [
+        "en",
+        "fr",
+        "pt",
+        "ar"
+      ],
+      "default": "en"
+    },
+    "consent": {
+      "type": "boolean",
+      "default": false
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "pending",
+        "active",
+        "stopped"
+      ],
+      "default": "pending"
+    }
+  },
+  "required": [
+    "phone_number",
+    "area_name",
+    "consent"
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "name": "AlertHistory",
+  "type": "object",
+  "properties": {
+    "area_name": {
+      "type": "string"
+    },
+    "region": {
+      "type": "string"
+    },
+    "country": {
+      "type": "string"
+    },
+    "tier": {
+      "type": "string",
+      "enum": [
+        "high"
+      ],
+      "default": "high"
+    },
+    "sent_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "outcome": {
+      "type": "string",
+      "enum": [
+        "hit",
+        "miss",
+        "false_alarm",
+        "pending"
+      ],
+      "default": "pending"
+    },
+    "lead_time_hours": {
+      "type": "number"
+    }
+  },
+  "required": [
+    "area_name",
+    "sent_at",
+    "outcome"
+  ]
+}

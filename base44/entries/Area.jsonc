@@ -1,0 +1,52 @@
+{
+  "name": "Area",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "Area or district name"
+    },
+    "country": {
+      "type": "string"
+    },
+    "region": {
+      "type": "string",
+      "description": "Wider region / province"
+    },
+    "lat": {
+      "type": "number"
+    },
+    "lng": {
+      "type": "number"
+    },
+    "risk_tier": {
+      "type": "string",
+      "enum": [
+        "low",
+        "moderate",
+        "high"
+      ],
+      "default": "low"
+    },
+    "confidence": {
+      "type": "string",
+      "enum": [
+        "low",
+        "medium",
+        "high"
+      ],
+      "default": "medium"
+    },
+    "time_window": {
+      "type": "string",
+      "description": "e.g. Next 24-72h"
+    }
+  },
+  "required": [
+    "name",
+    "country",
+    "lat",
+    "lng",
+    "risk_tier"
+  ]
+}
