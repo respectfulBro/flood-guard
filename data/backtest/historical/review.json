@@ -1,0 +1,233 @@
+{
+  "version": "historical-evidence-v1",
+  "search_period": [
+    "2015-01-01",
+    "2023-12-31"
+  ],
+  "search_method": "Targeted news searches across 2015-2023, both pilots, with original article review. Initial purposive sample, not exhaustive event census. Evidence decisions fixed before inspecting ERA5 outcomes.",
+  "context_report": {
+    "url": "https://www.insdevforum.org/wp-content/uploads/2025/07/C5.25_TechnicalReport_ParametricFloodScheme_LagosState_PUBLIC_v2-1.pdf",
+    "pages": "46-47 and Appendix 5",
+    "note": "Reviewed through web PDF extraction. Broad flood history supports regional context, not neighborhood/day labels. Direct download returned a CAPTCHA HTML page; not archived as a PDF."
+  },
+  "events": [
+    {
+      "id": "lekki-2017-07-08",
+      "event_date": "2017-07-08",
+      "candidate_date": "2017-07-08",
+      "area_id": "lekki",
+      "status": "accepted_day",
+      "location": "Lekki, including residential flooding",
+      "location_precision": "named_area",
+      "timing_precision": "day",
+      "cause": "rainfall",
+      "storm_id": "lagos-2017-07-08",
+      "source_urls": [
+        "https://www.channelstv.com/2017/07/08/lagosians-lament-as-flood-hits-lekki-victoria-island/",
+        "https://punchng.com/video-flood-lekki-residents-abandon-homes/"
+      ],
+      "reviewer": "Codex assistant, public-source review; not human field verification",
+      "reviewed_at": "2026-09-30",
+      "review_note": "Channels contemporary rain/flood reporting corroborated by the July 8 Punch home-flood report. Embedded older tweets in Channels are not used to date this episode."
+    },
+    {
+      "id": "lekki-2020-06-18",
+      "event_date": "2020-06-18",
+      "candidate_date": "2020-06-18",
+      "area_id": "lekki",
+      "status": "accepted_day",
+      "location": "Admiralty Way, Lekki",
+      "location_precision": "named_area",
+      "timing_precision": "day",
+      "cause": "rainfall",
+      "storm_id": "lagos-2020-06-18",
+      "source_urls": [
+        "https://businessday.ng/news/article/flooding-economic-activities-paralysed-as-nature-empties-its-bowel-in-lagos/",
+        "https://www.thecable.ng/photos-flood-takes-over-parts-of-lagos/"
+      ],
+      "reviewer": "Codex assistant, public-source review; not human field verification",
+      "reviewed_at": "2026-09-30",
+      "review_note": "BusinessDay describes Thursday flooding on Admiralty Way; TheCable independently dates widespread Lekki flooding to June 18. Flood presence, not exact onset; rain also fell the previous day."
+    },
+    {
+      "id": "lekki-2021-07-16",
+      "event_date": "2021-07-16",
+      "candidate_date": "2021-07-16",
+      "area_id": "lekki",
+      "status": "accepted_day",
+      "location": "Lekki (named area)",
+      "location_precision": "named_area",
+      "timing_precision": "day",
+      "cause": "rainfall",
+      "storm_id": "lagos-2021-07-16",
+      "source_urls": [
+        "https://nairametrics.com/2021/07/16/flood-hits-parts-of-lagos-ogun/"
+      ],
+      "reviewer": "Codex assistant, public-source review; not human field verification",
+      "reviewed_at": "2026-09-30",
+      "review_note": "Nairametrics says it confirmed Friday rainfall flooding and explicitly lists Lekki. Area-day evidence only. Its broader Ketu mention is insufficient to create an Ikosi-Ketu observation."
+    },
+    {
+      "id": "ikosi-ketu-2022-06-18",
+      "event_date": "2022-06-18",
+      "candidate_date": "2022-06-18",
+      "area_id": "ikosi-ketu",
+      "status": "accepted_day",
+      "location": "Ikosi streets and Ketu-Ikosi roads toward Mile 12",
+      "location_precision": "named_area",
+      "timing_precision": "day",
+      "cause": "rainfall",
+      "storm_id": "lagos-2022-06-18",
+      "source_urls": [
+        "https://punchng.com/rain-pounds-lagos-houses-roads-flooded-property-destroyed/"
+      ],
+      "reviewer": "Codex assistant, public-source review; not human field verification",
+      "reviewed_at": "2026-09-30",
+      "review_note": "Punch reporters describe their own observations on Saturday in an article published Sunday June 19. Rainfall cause and named-area flood presence supported; no onset time inferred."
+    },
+    {
+      "id": "lekki-2023-09-16",
+      "event_date": "2023-09-16",
+      "candidate_date": "2023-09-16",
+      "area_id": "lekki",
+      "status": "accepted_day",
+      "location": "Lekki (named area)",
+      "location_precision": "named_area",
+      "timing_precision": "day",
+      "cause": "rainfall",
+      "storm_id": "lagos-2023-09-16",
+      "source_urls": [
+        "https://punchng.com/residents-groan-as-downpour-leaves-lagos-flooded-properties-destroyed/"
+      ],
+      "reviewer": "Codex assistant, public-source review; not human field verification",
+      "reviewed_at": "2026-09-30",
+      "review_note": "Punch reports Saturday morning rainfall flooding and explicitly names Lekki residents. Article is published Sunday September 17; use September 16. Broad named-area evidence, not a specific weather-grid point."
+    },
+    {
+      "id": "lekki-2015-06-10",
+      "event_date": null,
+      "candidate_date": "2015-06-10",
+      "area_id": "lekki",
+      "status": "pending",
+      "location": "Lekki (broad)",
+      "location_precision": "unresolved",
+      "timing_precision": "unresolved",
+      "cause": "unresolved",
+      "storm_id": null,
+      "source_urls": [
+        "https://naijagists.com/photos-lagosians-battle-flooding-obalende-mushin-lekki-vi-streets-flooded/"
+      ],
+      "reviewer": "Codex assistant, public-source review; not human field verification",
+      "reviewed_at": "2026-09-30",
+      "review_note": "Secondary photo roundup suggests June 10, but original attribution/local verification has not been established. Do not score."
+    },
+    {
+      "id": "lekki-2016-06-21",
+      "event_date": null,
+      "candidate_date": "2016-06-21",
+      "area_id": "lekki",
+      "status": "context",
+      "location": "Awoyaya, Lakowe, Ibeju-Lekki corridor",
+      "location_precision": "unresolved",
+      "timing_precision": "unresolved",
+      "cause": "unresolved",
+      "storm_id": null,
+      "source_urls": [
+        "https://guardian.ng/news/flood-takes-over-lekki-epe-expressway/"
+      ],
+      "reviewer": "Codex assistant, public-source review; not human field verification",
+      "reviewed_at": "2026-09-30",
+      "review_note": "Report focuses on places well east of the configured pilot point. Do not equate the entire Lekki-Epe corridor with pilot-area truth."
+    },
+    {
+      "id": "lekki-2018-08-13",
+      "event_date": null,
+      "candidate_date": "2018-08-13",
+      "area_id": "lekki",
+      "status": "pending",
+      "location": "Prince Kazeem Eletu Way, Jakande, Lekki (alleged)",
+      "location_precision": "unresolved",
+      "timing_precision": "unresolved",
+      "cause": "unresolved",
+      "storm_id": null,
+      "source_urls": [
+        "https://punchng.com/videos-floods-sack-lekki-road-as-lagos-is-drenched-by-rains/"
+      ],
+      "reviewer": "Codex assistant, public-source review; not human field verification",
+      "reviewed_at": "2026-09-30",
+      "review_note": "Punch relays an identified social-media poster but describes location as alleged. Original imagery has not been independently verified; excluded from accepted counts."
+    },
+    {
+      "id": "lekki-2019-10-11",
+      "event_date": null,
+      "candidate_date": "2019-10-11",
+      "area_id": "lekki",
+      "status": "context",
+      "location": "Lekki/Jakande and broader corridor",
+      "location_precision": "unresolved",
+      "timing_precision": "unresolved",
+      "cause": "unresolved",
+      "storm_id": null,
+      "source_urls": [
+        "https://punchng.com/downpour-gas-man-drowns-lekki-ikorodu-residents-landlords-flee/"
+      ],
+      "reviewer": "Codex assistant, public-source review; not human field verification",
+      "reviewed_at": "2026-09-30",
+      "review_note": "Reporter coverage spans October 11-13; no single pilot-area flood date isolated. Preserve multi-day report, do not choose the rainiest day."
+    },
+    {
+      "id": "lekki-2022-07-09",
+      "event_date": null,
+      "candidate_date": "2022-07-09",
+      "area_id": "lekki",
+      "status": "context",
+      "location": "Lekki",
+      "location_precision": "unresolved",
+      "timing_precision": "unresolved",
+      "cause": "unresolved",
+      "storm_id": null,
+      "source_urls": [
+        "https://punchng.com/rainfall-lagos-residents-lament-flooding-transport-fare-hike/"
+      ],
+      "reviewer": "Codex assistant, public-source review; not human field verification",
+      "reviewed_at": "2026-09-30",
+      "review_note": "July 11 article describes several days of flooding; July 9 is explicit for other areas but not securely isolated for the Lekki footage. Do not assign its publication date as event date."
+    },
+    {
+      "id": "ikosi-ketu-2023-04-27",
+      "event_date": null,
+      "candidate_date": "2023-04-27",
+      "area_id": "ikosi-ketu",
+      "status": "pending",
+      "location": "Ikosi-Ketu",
+      "location_precision": "unresolved",
+      "timing_precision": "unresolved",
+      "cause": "unresolved",
+      "storm_id": null,
+      "source_urls": [
+        "https://guardian.ng/news/roads-houses-flooded-as-rain-pounds-lagos/"
+      ],
+      "reviewer": "Codex assistant, public-source review; not human field verification",
+      "reviewed_at": "2026-09-30",
+      "review_note": "Guardian dates flooding to April 27, but much of its Ikosi narrative and resident quotation closely repeats the June 2022 Punch report. Date requires independent corroboration; not counted as another verified storm."
+    },
+    {
+      "id": "ikosi-ketu-2019-01-01",
+      "event_date": null,
+      "candidate_date": "2019-01-01",
+      "area_id": "ikosi-ketu",
+      "status": "context",
+      "location": "Agiliti / Ikosi-Isheri",
+      "location_precision": "unresolved",
+      "timing_precision": "unresolved",
+      "cause": "unresolved",
+      "storm_id": null,
+      "source_urls": [
+        "https://punchng.com/floods-wreak-havoc-as-residents-ignore-warnings-to-leave-affected-areas/"
+      ],
+      "reviewer": "Codex assistant, public-source review; not human field verification",
+      "reviewed_at": "2026-09-30",
+      "review_note": "Retrospective account identifies 2019 but no exact date, describes prolonged river/dam-release flooding, and does not establish the Ikosi-Ketu pilot location. Excluded."
+    }
+  ]
+}

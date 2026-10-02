@@ -1,0 +1,252 @@
+[
+  {
+    "at": "2026-09-30T18:53:56.268733Z",
+    "results": [
+      {
+        "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
+        "status": "unavailable",
+        "url": "https://archive-api.open-meteo.com/v1/archive?latitude=6.4474%2C6.6018&longitude=3.4723%2C3.3895&start_date=2017-07-06&end_date=2017-07-08&hourly=precipitation&models=era5&timezone=UTC&cell_selection=nearest"
+      },
+      {
+        "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
+        "status": "unavailable",
+        "url": "https://archive-api.open-meteo.com/v1/archive?latitude=6.4474%2C6.6018&longitude=3.4723%2C3.3895&start_date=2020-06-16&end_date=2020-06-18&hourly=precipitation&models=era5&timezone=UTC&cell_selection=nearest"
+      },
+      {
+        "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
+        "status": "unavailable",
+        "url": "https://archive-api.open-meteo.com/v1/archive?latitude=6.4474%2C6.6018&longitude=3.4723%2C3.3895&start_date=2021-07-14&end_date=2021-07-16&hourly=precipitation&models=era5&timezone=UTC&cell_selection=nearest"
+      },
+      {
+        "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
+        "status": "unavailable",
+        "url": "https://archive-api.open-meteo.com/v1/archive?latitude=6.4474%2C6.6018&longitude=3.4723%2C3.3895&start_date=2022-06-16&end_date=2022-06-18&hourly=precipitation&models=era5&timezone=UTC&cell_selection=nearest"
+      },
+      {
+        "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
+        "status": "unavailable",
+        "url": "https://archive-api.open-meteo.com/v1/archive?latitude=6.4474%2C6.6018&longitude=3.4723%2C3.3895&start_date=2023-09-14&end_date=2023-09-16&hourly=precipitation&models=era5&timezone=UTC&cell_selection=nearest"
+      },
+      {
+        "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
+        "status": "unavailable",
+        "url": "https://businessday.ng/news/article/flooding-economic-activities-paralysed-as-nature-empties-its-bowel-in-lagos/"
+      },
+      {
+        "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
+        "status": "unavailable",
+        "url": "https://guardian.ng/news/flood-takes-over-lekki-epe-expressway/"
+      },
+      {
+        "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
+        "status": "unavailable",
+        "url": "https://guardian.ng/news/roads-houses-flooded-as-rain-pounds-lagos/"
+      },
+      {
+        "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
+        "status": "unavailable",
+        "url": "https://naijagists.com/photos-lagosians-battle-flooding-obalende-mushin-lekki-vi-streets-flooded/"
+      },
+      {
+        "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
+        "status": "unavailable",
+        "url": "https://nairametrics.com/2021/07/16/flood-hits-parts-of-lagos-ogun/"
+      },
+      {
+        "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
+        "status": "unavailable",
+        "url": "https://punchng.com/downpour-gas-man-drowns-lekki-ikorodu-residents-landlords-flee/"
+      },
+      {
+        "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
+        "status": "unavailable",
+        "url": "https://punchng.com/floods-wreak-havoc-as-residents-ignore-warnings-to-leave-affected-areas/"
+      },
+      {
+        "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
+        "status": "unavailable",
+        "url": "https://punchng.com/rain-pounds-lagos-houses-roads-flooded-property-destroyed/"
+      },
+      {
+        "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
+        "status": "unavailable",
+        "url": "https://punchng.com/rainfall-lagos-residents-lament-flooding-transport-fare-hike/"
+      },
+      {
+        "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
+        "status": "unavailable",
+        "url": "https://punchng.com/residents-groan-as-downpour-leaves-lagos-flooded-properties-destroyed/"
+      },
+      {
+        "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
+        "status": "unavailable",
+        "url": "https://punchng.com/video-flood-lekki-residents-abandon-homes/"
+      },
+      {
+        "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
+        "status": "unavailable",
+        "url": "https://punchng.com/videos-floods-sack-lekki-road-as-lagos-is-drenched-by-rains/"
+      },
+      {
+        "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
+        "status": "unavailable",
+        "url": "https://www.channelstv.com/2017/07/08/lagosians-lament-as-flood-hits-lekki-victoria-island/"
+      },
+      {
+        "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
+        "status": "unavailable",
+        "url": "https://www.ncei.noaa.gov/data/global-summary-of-the-day/access/2017/65201099999.csv"
+      },
+      {
+        "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
+        "status": "unavailable",
+        "url": "https://www.ncei.noaa.gov/data/global-summary-of-the-day/access/2020/65201099999.csv"
+      },
+      {
+        "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
+        "status": "unavailable",
+        "url": "https://www.ncei.noaa.gov/data/global-summary-of-the-day/access/2021/65201099999.csv"
+      },
+      {
+        "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
+        "status": "unavailable",
+        "url": "https://www.ncei.noaa.gov/data/global-summary-of-the-day/access/2022/65201099999.csv"
+      },
+      {
+        "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
+        "status": "unavailable",
+        "url": "https://www.ncei.noaa.gov/data/global-summary-of-the-day/access/2023/65201099999.csv"
+      },
+      {
+        "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
+        "status": "unavailable",
+        "url": "https://www.thecable.ng/photos-flood-takes-over-parts-of-lagos/"
+      }
+    ]
+  },
+  {
+    "at": "2026-09-30T18:54:22.810973Z",
+    "results": [
+      {
+        "source_id": "b947d28c8ef376580f5c53508c27af97c0dec2fd6523211aea7a5371492f4a39",
+        "status": "cached",
+        "url": "https://archive-api.open-meteo.com/v1/archive?latitude=6.4474%2C6.6018&longitude=3.4723%2C3.3895&start_date=2017-07-06&end_date=2017-07-08&hourly=precipitation&models=era5&timezone=UTC&cell_selection=nearest"
+      },
+      {
+        "source_id": "9af4f842820c27a93dc6389c30a8f56850ece9150fe9f929498356d7162b3b27",
+        "status": "cached",
+        "url": "https://archive-api.open-meteo.com/v1/archive?latitude=6.4474%2C6.6018&longitude=3.4723%2C3.3895&start_date=2020-06-16&end_date=2020-06-18&hourly=precipitation&models=era5&timezone=UTC&cell_selection=nearest"
+      },
+      {
+        "source_id": "9f83d226a8ccbe3092d609c48192daf8bc247de2fdc17ea13a6fb2307b821567",
+        "status": "cached",
+        "url": "https://archive-api.open-meteo.com/v1/archive?latitude=6.4474%2C6.6018&longitude=3.4723%2C3.3895&start_date=2021-07-14&end_date=2021-07-16&hourly=precipitation&models=era5&timezone=UTC&cell_selection=nearest"
+      },
+      {
+        "source_id": "0995a38017c85852bef2a7c3571cb44b370de4b331203d0f91afea72457948a1",
+        "status": "cached",
+        "url": "https://archive-api.open-meteo.com/v1/archive?latitude=6.4474%2C6.6018&longitude=3.4723%2C3.3895&start_date=2022-06-16&end_date=2022-06-18&hourly=precipitation&models=era5&timezone=UTC&cell_selection=nearest"
+      },
+      {
+        "source_id": "69f937509957d780ae5f67de33be09d998f5ba06d9cc98f5361ea1feb1b73df9",
+        "status": "cached",
+        "url": "https://archive-api.open-meteo.com/v1/archive?latitude=6.4474%2C6.6018&longitude=3.4723%2C3.3895&start_date=2023-09-14&end_date=2023-09-16&hourly=precipitation&models=era5&timezone=UTC&cell_selection=nearest"
+      },
+      {
+        "source_id": "45c75bf47c37f0eb22d2073b05c60ec4b5edbf949fadb96a9ee3b92fe39280e7",
+        "status": "cached",
+        "url": "https://businessday.ng/news/article/flooding-economic-activities-paralysed-as-nature-empties-its-bowel-in-lagos/"
+      },
+      {
+        "source_id": "230751d7160c7c86659e70121308dd874b3a7dcd5fb7a6fcb60185f6d7cc94e3",
+        "status": "cached",
+        "url": "https://guardian.ng/news/flood-takes-over-lekki-epe-expressway/"
+      },
+      {
+        "source_id": "18b2337012ad02b397a8312d9be3b514aa1ed8ed5b979878e996b3e79acea610",
+        "status": "cached",
+        "url": "https://guardian.ng/news/roads-houses-flooded-as-rain-pounds-lagos/"
+      },
+      {
+        "source_id": "63256286260a7b7686e4ce724ab3b41c4e0a77ae7c99cd8d8d60a093580e0091",
+        "status": "cached",
+        "url": "https://naijagists.com/photos-lagosians-battle-flooding-obalende-mushin-lekki-vi-streets-flooded/"
+      },
+      {
+        "source_id": "c15910241853459f23df15ebfde0c0ceb5f9f18ba86b064df1d91c0aa7278e63",
+        "status": "cached",
+        "url": "https://nairametrics.com/2021/07/16/flood-hits-parts-of-lagos-ogun/"
+      },
+      {
+        "source_id": "66f8fc95b859d13bed86ce9d90a059035402485ead10d6dc0cca65f35c601952",
+        "status": "cached",
+        "url": "https://punchng.com/downpour-gas-man-drowns-lekki-ikorodu-residents-landlords-flee/"
+      },
+      {
+        "source_id": "bf1d7644ca848b0497ae318b4a95330e0c2cbe8daa5a112f33b05838ad707ace",
+        "status": "cached",
+        "url": "https://punchng.com/floods-wreak-havoc-as-residents-ignore-warnings-to-leave-affected-areas/"
+      },
+      {
+        "source_id": "39eb326adfe8f7fcd46ed3762e391d1365bb5c9c32c721c4b7e74da2601449b5",
+        "status": "cached",
+        "url": "https://punchng.com/rain-pounds-lagos-houses-roads-flooded-property-destroyed/"
+      },
+      {
+        "source_id": "29f8ea740cfdc855ba3f302ff8d64d45659d15a3756b6b4319c34f85b6aa60b6",
+        "status": "cached",
+        "url": "https://punchng.com/rainfall-lagos-residents-lament-flooding-transport-fare-hike/"
+      },
+      {
+        "source_id": "e2c7f40b0a097b4d3f98830897947686f17270fa8e6f8bb5751611bb439bb91a",
+        "status": "cached",
+        "url": "https://punchng.com/residents-groan-as-downpour-leaves-lagos-flooded-properties-destroyed/"
+      },
+      {
+        "source_id": "a8049ed99a15b5b1d49fd4a9a8017e2bb9b05edf2738ea10b7dbe78f8dc2bd9a",
+        "status": "cached",
+        "url": "https://punchng.com/video-flood-lekki-residents-abandon-homes/"
+      },
+      {
+        "source_id": "dae17833de36a0d79fdf96fd7267236067bf827c33ca432db9775d0577edbaa6",
+        "status": "cached",
+        "url": "https://punchng.com/videos-floods-sack-lekki-road-as-lagos-is-drenched-by-rains/"
+      },
+      {
+        "source_id": "ac4d73fc8b7a2f4d424cbeea2499758ed6cfba113fb9e0401c9cbdf6d01b3925",
+        "status": "cached",
+        "url": "https://www.channelstv.com/2017/07/08/lagosians-lament-as-flood-hits-lekki-victoria-island/"
+      },
+      {
+        "source_id": "55dda4810e39635e6164da278ed3cd3f8904ceecf05d4b9410bf595db76bdc1f",
+        "status": "cached",
+        "url": "https://www.ncei.noaa.gov/data/global-summary-of-the-day/access/2017/65201099999.csv"
+      },
+      {
+        "source_id": "b77b7f67693fde923e0c9d748c1854b3efa8baf2a12eb5752c761e71562efb8d",
+        "status": "cached",
+        "url": "https://www.ncei.noaa.gov/data/global-summary-of-the-day/access/2020/65201099999.csv"
+      },
+      {
+        "source_id": "b701d3cf04d7aa242271fc6eef744d9c2f8aa8a12e4a50f3be0f70bbfd884441",
+        "status": "cached",
+        "url": "https://www.ncei.noaa.gov/data/global-summary-of-the-day/access/2021/65201099999.csv"
+      },
+      {
+        "source_id": "a1cb326d20ba969e0a6520f130b21df97fe13559551eb5f80c07206f15d5c18e",
+        "status": "cached",
+        "url": "https://www.ncei.noaa.gov/data/global-summary-of-the-day/access/2022/65201099999.csv"
+      },
+      {
+        "source_id": "6c6ed9d91dd6f3a67d301d47be1b2e88a1ddeb79d9c576e3d5d8cd2a609c4307",
+        "status": "cached",
+        "url": "https://www.ncei.noaa.gov/data/global-summary-of-the-day/access/2023/65201099999.csv"
+      },
+      {
+        "source_id": "d97b074086367484bef567f69ed8918931de6b5cbdbd82875974bdbd67e2934c",
+        "status": "cached",
+        "url": "https://www.thecable.ng/photos-flood-takes-over-parts-of-lagos/"
+      }
+    ]
+  }
+]

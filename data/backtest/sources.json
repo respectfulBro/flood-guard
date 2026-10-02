@@ -1,0 +1,21 @@
+{
+  "65397f8c1cc7470ab50695dfb975a80f019c63e8c80da1168f97b98078ea9c40": {
+    "bytes": 163830,
+    "cache_file": "cache/sources/4247c19f6436d7faad4297d50a148cffbdff3b4306fa06c7cfbcac811ca1fb8c.bin",
+    "content_type": "text/html",
+    "final_url": "https://www.thecable.ng/photos-commuters-stranded-homes-submerged-as-flood-ravages-lagos/",
+    "id": "65397f8c1cc7470ab50695dfb975a80f019c63e8c80da1168f97b98078ea9c40",
+    "import_method": "http",
+    "metadata": {
+      "article:published_time": "2024-07-03T12:13:02+00:00",
+      "og:site_name": "TheCable",
+      "og:title": "PHOTOS: Commuters stranded, homes submerged as flood ravages Lagos"
+    },
+    "retrieved_at": "2026-09-30T18:30:15.708817Z",
+    "sha256": "4247c19f6436d7faad4297d50a148cffbdff3b4306fa06c7cfbcac811ca1fb8c",
+    "status": "unreviewed",
+    "text_file": "cache/sources/4247c19f6436d7faad4297d50a148cffbdff3b4306fa06c7cfbcac811ca1fb8c.txt",
+    "text_sha256": "b2aa951dec5be0db515e8c2ff3b7d763ab39e2619ee573a24c8a6ac4ec844152",
+    "url": "https://www.thecable.ng/photos-commuters-stranded-homes-submerged-as-flood-ravages-lagos/"
+  }
+}

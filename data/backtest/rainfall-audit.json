@@ -1,0 +1,143 @@
+{
+  "cases": [
+    {
+      "area_id": "lekki",
+      "event_date": "2024-07-03",
+      "observations": [
+        {
+          "date": "2024-07-02",
+          "flag": "G",
+          "quality": "24h_report",
+          "record_present": true,
+          "reported_mm": 0.0
+        },
+        {
+          "date": "2024-07-03",
+          "flag": "F",
+          "quality": "24h_report",
+          "record_present": true,
+          "reported_mm": 155.96
+        },
+        {
+          "date": "2024-07-04",
+          "flag": "",
+          "quality": "missing_or_incomplete",
+          "record_present": true,
+          "reported_mm": null
+        }
+      ],
+      "station_distance_km": 22.1
+    },
+    {
+      "area_id": "ikosi-ketu",
+      "event_date": "2024-07-03",
+      "observations": [
+        {
+          "date": "2024-07-02",
+          "flag": "G",
+          "quality": "24h_report",
+          "record_present": true,
+          "reported_mm": 0.0
+        },
+        {
+          "date": "2024-07-03",
+          "flag": "F",
+          "quality": "24h_report",
+          "record_present": true,
+          "reported_mm": 155.96
+        },
+        {
+          "date": "2024-07-04",
+          "flag": "",
+          "quality": "missing_or_incomplete",
+          "record_present": true,
+          "reported_mm": null
+        }
+      ],
+      "station_distance_km": 8.0
+    },
+    {
+      "area_id": "lekki",
+      "event_date": "2025-08-04",
+      "observations": [
+        {
+          "date": "2025-08-03",
+          "flag": "",
+          "quality": "missing_or_incomplete",
+          "record_present": true,
+          "reported_mm": null
+        },
+        {
+          "date": "2025-08-04",
+          "flag": "E",
+          "quality": "partial_period",
+          "record_present": true,
+          "reported_mm": 36.07
+        },
+        {
+          "date": "2025-08-05",
+          "flag": "E",
+          "quality": "partial_period",
+          "record_present": true,
+          "reported_mm": 1.02
+        }
+      ],
+      "station_distance_km": 22.1
+    },
+    {
+      "area_id": "lekki",
+      "event_date": "2025-09-16",
+      "observations": [
+        {
+          "date": "2025-09-15",
+          "flag": "",
+          "quality": "missing_or_incomplete",
+          "record_present": false,
+          "reported_mm": null
+        },
+        {
+          "date": "2025-09-16",
+          "flag": "",
+          "quality": "missing_or_incomplete",
+          "record_present": false,
+          "reported_mm": null
+        },
+        {
+          "date": "2025-09-17",
+          "flag": "",
+          "quality": "missing_or_incomplete",
+          "record_present": false,
+          "reported_mm": null
+        }
+      ],
+      "station_distance_km": 22.1
+    }
+  ],
+  "documentation": "https://www.ncei.noaa.gov/data/global-summary-of-the-day/doc/readme.txt",
+  "limitations": "Nearby airport observations, not gauges at either pilot location. NOAA daily totals can include the previous day and do not exactly match midnight Lagos windows. F/D/G flags cover reported 24-hour totals; A/B/C/E cover partial periods. H/I and missing values are not zero rainfall. No point-by-point forecast error or flood/non-flood label is inferred from this station. Observations are used after the event for diagnosis only, never as historical forecast inputs.",
+  "retrieved_at": "2026-09-25T16:13:26.554777Z",
+  "sources": [
+    {
+      "cache_file": "cache/rainfall/65201099999-2024.csv",
+      "first_date": "2024-01-01",
+      "last_date": "2024-12-31",
+      "records": 355,
+      "sha256": "7f0d14d9b8aa512cba73172124d11d6684e3cc4a6c479a83952c452cdc6ba04c",
+      "url": "https://www.ncei.noaa.gov/data/global-summary-of-the-day/access/2024/65201099999.csv"
+    },
+    {
+      "cache_file": "cache/rainfall/65201099999-2025.csv",
+      "first_date": "2025-01-01",
+      "last_date": "2025-08-24",
+      "records": 236,
+      "sha256": "256a61a4dfa20ba84e268edf0da1b26a966a22a06755ec06dc1ad464762f5370",
+      "url": "https://www.ncei.noaa.gov/data/global-summary-of-the-day/access/2025/65201099999.csv"
+    }
+  ],
+  "station": {
+    "id": "65201099999",
+    "lat": 6.577369,
+    "lng": 3.321156,
+    "name": "MURTALA MUHAMMED, NI"
+  }
+}

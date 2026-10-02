@@ -1,0 +1,196 @@
+{
+  "register": "backtest-events",
+  "note": "Assistant-reviewed historical observations; approval means public-source evidence accepted for named-area daily comparison, not field verification. Day bounds represent observed flood presence, not exact onset. Pending template retained; never approve it. Full candidate review is in review.json.",
+  "sources": {
+    "groundsource": "https://zenodo.org/records/18647054",
+    "lasema_lagos_flood_history": "https://www.insdevforum.org/wp-content/uploads/2025/07/C5.25_TechnicalReport_ParametricFloodScheme_LagosState_PUBLIC_v2-1.pdf",
+    "global_flood_database": "https://developers.google.com/earth-engine/datasets/catalog/GLOBAL_FLOOD_DB_MODIS_EVENTS_V1",
+    "open_meteo_single_runs": "https://open-meteo.com/en/docs/single-runs-api"
+  },
+  "events": [
+    {
+      "id": "template-never-approve",
+      "status": "pending",
+      "area_id": "lekki",
+      "storm_id": "",
+      "location": "",
+      "description": "TEMPLATE: copy this row per candidate event after reviewing its evidence.",
+      "flooded": true,
+      "cause": "rainfall",
+      "start_at": "2025-07-12T08:00:00Z",
+      "end_at": "2025-07-12T08:00:00Z",
+      "timing_precision": "hour",
+      "source_urls": [],
+      "satellite_evidence": "",
+      "reviewer": "",
+      "reviewed_at": "",
+      "review_note": ""
+    },
+    {
+      "id": "observed-2024-07-03-lekki",
+      "status": "approved",
+      "area_id": "lekki",
+      "storm_id": "lagos-2024-07-03",
+      "event_date": "2024-07-03",
+      "location": "Lekki (named-area evidence; Phase II field reporting)",
+      "location_precision": "named_area",
+      "description": "Rain-associated flooding documented in Lekki (named-area evidence; Phase II field reporting).",
+      "flooded": true,
+      "cause": "rainfall",
+      "cause_note": "Rain-associated flooding; drainage and tidal contribution are not ruled out.",
+      "start_at": "2024-07-02T23:00:00Z",
+      "end_at": "2024-07-03T23:00:00Z",
+      "timing_precision": "day",
+      "observation_kind": "flood_present_on_day",
+      "source_urls": [
+        "https://www.thecable.ng/photos-commuters-stranded-homes-submerged-as-flood-ravages-lagos/",
+        "https://punchng.com/10-hour-rainfall-lekki-ikoyi-residents-flee-luxury-mansions-as-flood-ravages-homes-streets/"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.thecable.ng/photos-commuters-stranded-homes-submerged-as-flood-ravages-lagos/",
+          "publisher": "TheCable",
+          "published_date": "2024-07-03",
+          "finding": "Contemporaneous reporting identifies Lekki among locations flooded on July 3.",
+          "excerpt": "Some residents woke up to find their homes and estates flooded.",
+          "reviewed_by": "Codex assistant",
+          "accessed_on": "2026-09-25"
+        },
+        {
+          "url": "https://punchng.com/10-hour-rainfall-lekki-ikoyi-residents-flee-luxury-mansions-as-flood-ravages-homes-streets/",
+          "publisher": "Punch",
+          "published_date": "2024-07-07",
+          "finding": "Reporter visited Lekki Phase II on Wednesday evening. The article incorrectly calls July 4 a Wednesday; contemporaneous July 3 reporting resolves the storm date.",
+          "excerpt": "our correspondent visited a popular estate in the Lekki Phase II area on Wednesday evening",
+          "reviewed_by": "Codex assistant",
+          "accessed_on": "2026-09-25"
+        }
+      ],
+      "reviewer": "Codex assistant (public-source review; not human field verification)",
+      "reviewed_at": "2026-09-25T15:41:57.916667Z",
+      "review_note": "Day resolved using contemporaneous July 3 report and separate Wednesday field reporting. Punch weekday/date typo retained in evidence. Weather point is a regional proxy, not this street."
+    },
+    {
+      "id": "observed-2024-07-03-ikosi-ketu",
+      "status": "approved",
+      "area_id": "ikosi-ketu",
+      "storm_id": "lagos-2024-07-03",
+      "event_date": "2024-07-03",
+      "location": "Taiwo Street, Ikosi-Ketu",
+      "location_precision": "named_area",
+      "description": "Rain-associated flooding documented in Taiwo Street, Ikosi-Ketu.",
+      "flooded": true,
+      "cause": "rainfall",
+      "cause_note": "Rain-associated flooding; drainage and tidal contribution are not ruled out.",
+      "start_at": "2024-07-02T23:00:00Z",
+      "end_at": "2024-07-03T23:00:00Z",
+      "timing_precision": "day",
+      "observation_kind": "flood_present_on_day",
+      "source_urls": [
+        "https://punchng.com/10-states-battling-flooding-21-others-at-risk-fg-warns/",
+        "https://www.pulse.ng/news/metro/sad-day-in-lagos-as-pupil-returning-home-from-school-swept-away-by-flood/fdr71td"
+      ],
+      "evidence": [
+        {
+          "url": "https://punchng.com/10-states-battling-flooding-21-others-at-risk-fg-warns/",
+          "publisher": "Punch",
+          "published_date": "2024-07-05",
+          "finding": "Original interviews identify an Ikosi-Ketu flood casualty on Wednesday, July 3. Exact flood onset is not established.",
+          "excerpt": "on Wednesday in the Ikosi area of Ketu in Lagos",
+          "reviewed_by": "Codex assistant",
+          "accessed_on": "2026-09-25"
+        },
+        {
+          "url": "https://www.pulse.ng/news/metro/sad-day-in-lagos-as-pupil-returning-home-from-school-swept-away-by-flood/fdr71td",
+          "publisher": "Pulse / Daily Trust",
+          "published_date": "2024-07-03",
+          "finding": "Contemporaneous secondary report places the incident on Taiwo Street, Ikosi-Ketu, on July 3. Its underlying reporting is credited to Daily Trust.",
+          "excerpt": "on Taiwo Street in Ikosi, Ketu, Lagos",
+          "reviewed_by": "Codex assistant",
+          "accessed_on": "2026-09-25"
+        }
+      ],
+      "reviewer": "Codex assistant (public-source review; not human field verification)",
+      "reviewed_at": "2026-09-25T15:41:57.916667Z",
+      "review_note": "Punch original interviews and contemporaneous Pulse/Daily Trust reporting agree on July 3. The casualty time does not establish flood onset hour."
+    },
+    {
+      "id": "observed-2025-08-04-lekki",
+      "status": "approved",
+      "area_id": "lekki",
+      "storm_id": "lagos-2025-08-04",
+      "event_date": "2025-08-04",
+      "location": "Agungi corridor, Lekki",
+      "location_precision": "named_area",
+      "description": "Rain-associated flooding documented in Agungi corridor, Lekki.",
+      "flooded": true,
+      "cause": "rainfall",
+      "cause_note": "Rain-associated flooding; drainage and tidal contribution are not ruled out.",
+      "start_at": "2025-08-03T23:00:00Z",
+      "end_at": "2025-08-04T23:00:00Z",
+      "timing_precision": "day",
+      "observation_kind": "flood_present_on_day",
+      "source_urls": [
+        "https://www.channelstv.com/2025/08/04/lagos-communities-flooded-vehicles-submerged-after-marathon-rainfall/",
+        "https://guardian.ng/news/nigeria/metro/nimet-prediction-lagos-assures-residents-over-flash-flood-effects/"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.channelstv.com/2025/08/04/lagos-communities-flooded-vehicles-submerged-after-marathon-rainfall/",
+          "publisher": "Channels Television",
+          "published_date": "2025-08-04",
+          "finding": "Reports flooding in Lekki on Monday, August 4 following rainfall beginning Sunday night. Flood presence is supported; exact onset is unknown.",
+          "excerpt": "were flooded on Monday",
+          "reviewed_by": "Codex assistant",
+          "accessed_on": "2026-09-25"
+        },
+        {
+          "url": "https://guardian.ng/news/nigeria/metro/nimet-prediction-lagos-assures-residents-over-flash-flood-effects/",
+          "publisher": "Guardian / Lagos commissioner",
+          "published_date": "2025-08-07",
+          "finding": "Official account confirms Monday flooding affected the Agungi corridor of Lekki. Used to corroborate location and day.",
+          "excerpt": "areas around the Agungi corridor of Lekki",
+          "reviewed_by": "Codex assistant",
+          "accessed_on": "2026-09-25"
+        }
+      ],
+      "reviewer": "Codex assistant (public-source review; not human field verification)",
+      "reviewed_at": "2026-09-25T15:41:57.916667Z",
+      "review_note": "Monday flood presence confirmed by Channels and official account reported by Guardian. Rain started Sunday night; onset hour is unknown."
+    },
+    {
+      "id": "observed-2025-09-16-lekki",
+      "status": "approved",
+      "area_id": "lekki",
+      "storm_id": "lagos-2025-09-16",
+      "event_date": "2025-09-16",
+      "location": "Osapa London, Lekki",
+      "location_precision": "named_area",
+      "description": "Rain-associated flooding documented in Osapa London, Lekki.",
+      "flooded": true,
+      "cause": "rainfall",
+      "cause_note": "Rain-associated flooding; drainage and tidal contribution are not ruled out.",
+      "start_at": "2025-09-15T23:00:00Z",
+      "end_at": "2025-09-16T23:00:00Z",
+      "timing_precision": "day",
+      "observation_kind": "flood_present_on_day",
+      "source_urls": [
+        "https://punchng.com/motorists-residents-lament-as-flood-submerges-lagos-roads/"
+      ],
+      "evidence": [
+        {
+          "url": "https://punchng.com/motorists-residents-lament-as-flood-submerges-lagos-roads/",
+          "publisher": "Punch",
+          "published_date": "2025-09-17",
+          "finding": "Reporter received a resident video and interviewed a resident in Osapa London, Lekki. The event was Tuesday, September 16, not the publication date.",
+          "excerpt": "In a video sent to our correspondent by a resident of Osapa London in the Lekki area",
+          "reviewed_by": "Codex assistant",
+          "accessed_on": "2026-09-25"
+        }
+      ],
+      "reviewer": "Codex assistant (public-source review; not human field verification)",
+      "reviewed_at": "2026-09-25T15:41:57.916667Z",
+      "review_note": "Original reporter received resident video and interviewed a named resident. Tuesday before September 17 is September 16. Do not use publication date."
+    }
+  ]
+}

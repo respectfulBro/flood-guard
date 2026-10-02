@@ -1,76 +1,56 @@
-import { useEffect, useState } from "react";
-import { useParams, Link } from "react-router-dom";
-import { base44 } from "@/api/base44Client";
-import { ArrowLeft, MessageSquareText } from "lucide-react";
-import { Button } from "@/components/ui/button";
-import { useLanguage } from "@/lib/LanguageContext";
-import RiskBadge from "@/components/risk/RiskBadge";
-import DisclaimerBanner from "@/components/DisclaimerBanner";
-import { format } from "date-fns";
+import { Link, useParams } from 'react-router-dom';
+import { usePilot, lagosTime } from '@/api/pilot';
+import DataState from '@/components/DataState';
+import RiskBadge from '@/components/risk/RiskBadge';
+import DisclaimerBanner from '@/components/DisclaimerBanner';
 
 export default function AreaDetail() {
   const { id } = useParams();
-  const { t } = useLanguage();
-  const [area, setArea] = useState(null);
-  const [status, setStatus] = useState("loading");
-
-  useEffect(() => {
-    base44.entities.Area.get(id)
-      .then((a) => { setArea(a); setStatus("ready"); })
-      .catch(() => setStatus("not_found"));
-  }, [id]);
-
-  if (status === "loading") return <div className="max-w-2xl mx-auto px-5 py-16 text-sm text-slate-400">…</div>;
-  if (status === "not_found" || !area) {
-    return (
-      <div className="max-w-2xl mx-auto px-5 py-16 text-center">
-        <p className="text-slate-600">{t("area_not_found")}</p>
-        <Link to="/map" className="text-teal-700 text-sm mt-3 inline-block">{t("area_back")}</Link>
+  const query = usePilot(`/areas/${encodeURIComponent(id)}`);
+  const area = query.data;
+  const f = area?.forecast;
+  const historical = area?.data_status === 'historical';
+  const fresh = area?.data_status === 'fresh';
+  return <div className="max-w-4xl mx-auto px-5 py-10">
+    <Link to="/map" className="text-teal-700 text-sm">← Back to Lagos map</Link>
+    <DataState query={query} />
+    {area && !query.isError && <>
+      <div className="flex flex-wrap justify-between items-center gap-4 mt-6">
+        <div><h1 className="text-3xl font-semibold">{area.name}</h1><p className="text-slate-500 mt-1">Lagos State · Candidate research area</p></div>
+        <div>{historical && <p className="text-sm text-amber-900 mb-2">Historical screen · {area.event_date}</p>}<RiskBadge tier={area.risk_tier} /></div>
       </div>
-    );
-  }
-
-  return (
-    <div className="max-w-2xl mx-auto px-5 py-10">
-      <Link to="/map" className="inline-flex items-center gap-1.5 text-sm text-slate-500 hover:text-teal-800 mb-6">
-        <ArrowLeft className="w-4 h-4" />{t("area_back")}
-      </Link>
-
-      <div className="flex items-start justify-between gap-4 flex-wrap">
-        <div>
-          <h1 className="text-2xl font-semibold text-slate-900 tracking-tight">{area.name}</h1>
-          <p className="text-slate-500 text-sm mt-1">{area.region ? `${area.region}, ` : ""}{area.country}</p>
+      <p className="mt-5 text-slate-600">Rainfall screening, uncalibrated for local flooding. No numerical flood probability is available.</p>
+      {historical && <p role="status" className="bg-amber-50 p-4 rounded-xl mt-5">Historical demo · {area.event_date}. These are cached rainfall screening results, not today’s risk. <Link className="underline" to="/replay">Explore all historical events and evidence</Link>.</p>}
+      {!fresh && !historical && <p role="status" className="bg-slate-100 p-4 rounded-xl mt-5">{area.demo_message || (f ? 'This forecast is stale. Historical values below must not be read as current risk.' : 'No usable forecast has been received. Risk is unknown.')}</p>}
+      {area.last_check && <p className="text-sm text-slate-500 mt-4">Last weather check: {lagosTime(area.last_check.checked_at)} · {area.last_check.success ? 'Completed' : 'Failed; awaiting a successful update'}</p>}
+      {f && <>
+        <div className="mt-5 rounded-xl border border-amber-200 bg-amber-50 p-4 text-sm">
+          <p className="font-medium">{f.version === 'rainfall-screen-sensitive-v2' ? 'Sensitive rainfall screening · unvalidated' : 'Original rainfall screening'}</p>
+          <p className="mt-2">Confidence: {f.confidence?.label || 'Flood likelihood not yet measured'}.</p>
+          <p className="mt-1">{f.confidence?.reason || 'This rule has not been calibrated against a representative set of flood and non-flood observations.'}</p>
+          <p className="mt-1">Low screening does not rule out flooding. Moderate/high describes a rainfall threshold crossing, not certainty that flooding will occur.</p>
         </div>
-        <RiskBadge tier={area.risk_tier} size="lg" />
-      </div>
-
-      <div className="grid grid-cols-2 gap-4 mt-8">
-        <div className="rounded-xl border border-slate-100 p-4">
-          <p className="text-xs text-slate-400 uppercase tracking-wide">{t("area_time_window_label")}</p>
-          <p className="text-slate-900 font-medium mt-1">{area.time_window || "—"}</p>
-        </div>
-        <div className="rounded-xl border border-slate-100 p-4">
-          <p className="text-xs text-slate-400 uppercase tracking-wide">{t("confidence_label")}</p>
-          <p className="text-slate-900 font-medium mt-1">{t(`confidence_${area.confidence || "medium"}`)}</p>
-        </div>
-      </div>
-
-      <div className="mt-6">
-        <p className="text-xs text-slate-400 uppercase tracking-wide mb-2">{t("area_what_this_means")}</p>
-        <p className="text-slate-700 leading-relaxed">{t(`tier_${area.risk_tier}_desc`)}</p>
-      </div>
-
-      <p className="text-xs text-slate-400 mt-6">
-        {t("area_updated_label")}: {area.updated_date ? format(new Date(area.updated_date), "PPp") : "—"}
-      </p>
-
+        <dl className="grid sm:grid-cols-2 gap-4 my-6 text-sm">
+          <div><dt className="text-slate-500">{historical ? 'Simulated daily decision' : 'Forecast issued'}</dt><dd>{lagosTime(f.issued_at)}</dd></div>
+          <div><dt className="text-slate-500">Source model initialization (metadata)</dt><dd>{lagosTime(f.source_run_at)}</dd></div>
+          <div><dt className="text-slate-500">Forecast period</dt><dd>{lagosTime(f.valid_from)} – {lagosTime(f.valid_until)}</dd></div>
+          <div><dt className="text-slate-500">Weather grid point</dt><dd>{f.grid_lat.toFixed(3)}, {f.grid_lng.toFixed(3)} · not a flood boundary</dd></div>
+        </dl>
+        <h2 className="text-lg font-semibold">Six-hour windows</h2>
+        <div className="grid sm:grid-cols-2 gap-4 mt-4">{f.windows.map((w) => {
+          const current = fresh && new Date(w.end_at) > new Date();
+          return <article key={w.start_at} className="border rounded-xl p-5">
+            <p className="text-sm text-slate-600 mb-3">{lagosTime(w.start_at)}<br />to {lagosTime(w.end_at)}</p>
+            <RiskBadge tier={current || historical ? w.risk_tier : 'stale'} />
+            {!current && !historical && <p className="text-xs text-slate-500 mt-2">Archived screening: {w.risk_tier}</p>}
+            <p className="text-2xl font-semibold mt-4">{w.rainfall_mm} <span className="text-sm font-normal">mm forecast rain</span></p>
+            <ul className="text-sm text-slate-600 mt-3 space-y-1">{w.factors.map((factor) => <li key={factor}>{factor}</li>)}</ul>
+          </article>;
+        })}</div>
+        <p className="text-sm text-slate-500 mt-6">{f.basis}. Accumulations may include rain before a window starts. Screening version: {f.version}.</p>
+      </>}
       <DisclaimerBanner className="mt-8" />
-
-      <Button asChild size="lg" className="bg-teal-800 hover:bg-teal-900 mt-6 w-full sm:w-auto">
-        <Link to={`/signup?area=${encodeURIComponent(area.name)}&country=${encodeURIComponent(area.country)}`}>
-          <MessageSquareText className="w-4 h-4 mr-2" />{t("area_signup_cta")}
-        </Link>
-      </Button>
-    </div>
-  );
+      <Link className="inline-block mt-5 text-teal-700 underline" to={`/report?area=${area.id}`}>Record flooding or a confirmed non-flood observation</Link>
+    </>}
+  </div>;
 }

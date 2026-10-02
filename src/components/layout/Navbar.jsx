@@ -2,17 +2,14 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import { Waves, Menu, X } from "lucide-react";
 import { useLanguage } from "@/lib/LanguageContext";
-import { languageNames } from "@/lib/translations";
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 
 export default function Navbar() {
-  const { t, lang, setLang } = useLanguage();
+  const { t } = useLanguage();
   const [open, setOpen] = useState(false);
 
   const links = [
+    { to: "/replay", label: "Historical replay" },
     { to: "/map", label: t("nav_map") },
-    { to: "/signup", label: t("nav_signup") },
-    { to: "/agency", label: t("nav_agency") },
     { to: "/performance", label: t("nav_performance") },
     { to: "/report", label: t("nav_report") },
   ];
@@ -36,17 +33,7 @@ export default function Navbar() {
         </nav>
 
         <div className="flex items-center gap-2">
-          <Select value={lang} onValueChange={setLang}>
-            <SelectTrigger className="w-[110px] h-9 text-sm">
-              <SelectValue />
-            </SelectTrigger>
-            <SelectContent>
-              {Object.entries(languageNames).map(([code, name]) => (
-                <SelectItem key={code} value={code}>{name}</SelectItem>
-              ))}
-            </SelectContent>
-          </Select>
-          <button className="md:hidden p-2 text-slate-600" onClick={() => setOpen(!open)}>
+          <button aria-label="Toggle navigation" aria-expanded={open} className="md:hidden p-2 text-slate-600" onClick={() => setOpen(!open)}>
             {open ? <X className="w-5 h-5" /> : <Menu className="w-5 h-5" />}
           </button>
         </div>

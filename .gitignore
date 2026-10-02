@@ -35,3 +35,13 @@ dist-ssr
 .env
 .vite
 base44/.app.jsonc
+
+# Local research service
+.venv/
+__pycache__/
+*.pyc
+data/*.sqlite3*
+data/backtest/cache/
+data/backtest/results/
+data/backtest/historical/cache/
+data/backtest/historical/results/

@@ -9,7 +9,10 @@
     "lint": "eslint . --quiet",
     "lint:fix": "eslint . --fix",
     "typecheck": "tsc -p ./jsconfig.json",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "pilot": ".venv/bin/python -m backend serve",
+    "test:backend": ".venv/bin/python -m unittest discover -s backend -t . -p 'test_*.py' -v",
+    "demo": "npm run build && .venv/bin/python -m backend demo"
   },
   "dependencies": {
     "@hello-pangea/dnd": "^17.0.0",

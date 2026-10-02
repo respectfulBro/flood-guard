@@ -1,0 +1,288 @@
+{
+  "cases": [
+    {
+      "area_id": "ikosi-ketu",
+      "daily_decision_at": "2024-07-02T23:00:00Z",
+      "date": "2024-07-03",
+      "finding": "The archive represents a much weaker rain event at the pilot grid than the substantial rainfall reported at Ikeja. Spatial/temporal rainfall mismatch is a plausible contributor; this is not a matched-location forecast-error measurement and does not establish the correct threshold.",
+      "first_sensitive_alert_window": {
+        "end_at": "2024-07-03T11:00:00Z",
+        "factors": [
+          "Peak 1h accumulation 3.5 mm",
+          "Peak 3h accumulation 8.1 mm",
+          "Peak 6h accumulation 10.6 mm",
+          "Peak 24h accumulation 14.6 mm"
+        ],
+        "peaks_mm": {
+          "1": 3.5,
+          "24": 14.6,
+          "3": 8.1,
+          "6": 10.6
+        },
+        "rainfall_mm": 9.2,
+        "risk_tier": "moderate",
+        "start_at": "2024-07-03T05:00:00Z"
+      },
+      "forecast_grid": [
+        6.572935,
+        3.4005039
+      ],
+      "forecast_input_hashes": {
+        "20240702T00Z": "8f25815f866300fc1742477f3d821b735921dbc2480fbabd3ca947aa79584803",
+        "20240702T12Z": "7826c09c2ee8f223bd2cf599ad7b68b49f546de0c84dceb3742d6e1f46b5e828"
+      },
+      "forecast_run_at": "2024-07-02T12:00:00Z",
+      "forecast_total_local_day_mm": 16.2,
+      "grid_distance_from_pilot_point_km": 3.4,
+      "peak_accumulations_mm": {
+        "1": 3.5,
+        "24": 16.4,
+        "3": 8.1,
+        "6": 10.6
+      },
+      "shortfall_to_moderate_mm": {
+        "1": 6.5,
+        "24": 33.6,
+        "3": 11.9,
+        "6": 19.4
+      },
+      "source_urls": [
+        "https://punchng.com/10-states-battling-flooding-21-others-at-risk-fg-warns/",
+        "https://www.pulse.ng/news/metro/sad-day-in-lagos-as-pupil-returning-home-from-school-swept-away-by-flood/fdr71td"
+      ],
+      "station_distance_from_pilot_point_km": 8.0,
+      "station_observation": {
+        "flag": "F",
+        "quality": "24h_report",
+        "reported_mm": 155.96
+      },
+      "storm_id": "lagos-2024-07-03"
+    },
+    {
+      "area_id": "lekki",
+      "daily_decision_at": "2024-07-02T23:00:00Z",
+      "date": "2024-07-03",
+      "finding": "The archive represents a much weaker rain event at the pilot grid than the substantial rainfall reported at Ikeja. Spatial/temporal rainfall mismatch is a plausible contributor; this is not a matched-location forecast-error measurement and does not establish the correct threshold.",
+      "first_sensitive_alert_window": {
+        "end_at": "2024-07-03T05:00:00Z",
+        "factors": [
+          "Peak 1h accumulation 3.4 mm",
+          "Peak 3h accumulation 5.1 mm"
+        ],
+        "peaks_mm": {
+          "1": 3.4,
+          "24": 11.4,
+          "3": 5.1,
+          "6": 5.3
+        },
+        "rainfall_mm": 5.3,
+        "risk_tier": "moderate",
+        "start_at": "2024-07-02T23:00:00Z"
+      },
+      "forecast_grid": [
+        6.4323373,
+        3.3948028
+      ],
+      "forecast_input_hashes": {
+        "20240702T00Z": "8f25815f866300fc1742477f3d821b735921dbc2480fbabd3ca947aa79584803",
+        "20240702T12Z": "7826c09c2ee8f223bd2cf599ad7b68b49f546de0c84dceb3742d6e1f46b5e828"
+      },
+      "forecast_run_at": "2024-07-02T12:00:00Z",
+      "forecast_total_local_day_mm": 18.2,
+      "grid_distance_from_pilot_point_km": 8.7,
+      "peak_accumulations_mm": {
+        "1": 6.8,
+        "24": 20.6,
+        "3": 11.8,
+        "6": 14.0
+      },
+      "shortfall_to_moderate_mm": {
+        "1": 3.2,
+        "24": 29.4,
+        "3": 8.2,
+        "6": 16.0
+      },
+      "source_urls": [
+        "https://punchng.com/10-hour-rainfall-lekki-ikoyi-residents-flee-luxury-mansions-as-flood-ravages-homes-streets/",
+        "https://www.thecable.ng/photos-commuters-stranded-homes-submerged-as-flood-ravages-lagos/"
+      ],
+      "station_distance_from_pilot_point_km": 22.1,
+      "station_observation": {
+        "flag": "F",
+        "quality": "24h_report",
+        "reported_mm": 155.96
+      },
+      "storm_id": "lagos-2024-07-03"
+    },
+    {
+      "area_id": "lekki",
+      "daily_decision_at": "2025-08-03T23:00:00Z",
+      "date": "2025-08-04",
+      "finding": "The archive predicts modest rain; Ikeja reports a larger amount from one 12-hour report. Different locations and accumulation periods prevent attribution between rainfall error and threshold sensitivity. Sensitive-v2 first alerts in the last six-hour window, so the daily hit does not establish warning before the reported daytime flooding.",
+      "first_sensitive_alert_window": {
+        "end_at": "2025-08-04T23:00:00Z",
+        "factors": [
+          "Peak 1h accumulation 3.1 mm",
+          "Peak 3h accumulation 5.6 mm",
+          "Peak 24h accumulation 15 mm"
+        ],
+        "peaks_mm": {
+          "1": 3.1,
+          "24": 15.0,
+          "3": 5.6,
+          "6": 6.1
+        },
+        "rainfall_mm": 6.1,
+        "risk_tier": "moderate",
+        "start_at": "2025-08-04T17:00:00Z"
+      },
+      "forecast_grid": [
+        6.4323373,
+        3.3948028
+      ],
+      "forecast_input_hashes": {
+        "20250803T00Z": "ca9c8927b505d2a783402e922b8ff0d44dc98bfc27fb72e349a24926ca6281f1",
+        "20250803T06Z": "eea0cf24d2d91ed2f2a0403fffff6b3545ffcb1f3ccaec8b672085bc1a7d44ec",
+        "20250803T12Z": "75e9e9f89fdbcba088c54e0dbd1cde856cddf928afde8cbec9755b09756bb7ba"
+      },
+      "forecast_run_at": "2025-08-03T12:00:00Z",
+      "forecast_total_local_day_mm": 15.0,
+      "grid_distance_from_pilot_point_km": 8.7,
+      "peak_accumulations_mm": {
+        "1": 3.1,
+        "24": 15.0,
+        "3": 5.6,
+        "6": 6.6
+      },
+      "shortfall_to_moderate_mm": {
+        "1": 6.9,
+        "24": 35.0,
+        "3": 14.4,
+        "6": 23.4
+      },
+      "source_urls": [
+        "https://guardian.ng/news/nigeria/metro/nimet-prediction-lagos-assures-residents-over-flash-flood-effects/",
+        "https://www.channelstv.com/2025/08/04/lagos-communities-flooded-vehicles-submerged-after-marathon-rainfall/"
+      ],
+      "station_distance_from_pilot_point_km": 22.1,
+      "station_observation": {
+        "flag": "E",
+        "quality": "partial_period",
+        "reported_mm": 36.07
+      },
+      "storm_id": "lagos-2025-08-04"
+    },
+    {
+      "area_id": "lekki",
+      "daily_decision_at": "2025-09-15T23:00:00Z",
+      "date": "2025-09-16",
+      "finding": "The archive predicts appreciable rain but every original threshold remains unmet. No station observation is available for this date. Threshold sensitivity demonstrably changes the classification; whether the rain forecast was accurate remains unresolved.",
+      "first_sensitive_alert_window": {
+        "end_at": "2025-09-16T05:00:00Z",
+        "factors": [
+          "Peak 1h accumulation 4.9 mm",
+          "Peak 3h accumulation 7.2 mm",
+          "Peak 6h accumulation 8.6 mm"
+        ],
+        "peaks_mm": {
+          "1": 4.9,
+          "24": 10.6,
+          "3": 7.2,
+          "6": 8.6
+        },
+        "rainfall_mm": 8.6,
+        "risk_tier": "moderate",
+        "start_at": "2025-09-15T23:00:00Z"
+      },
+      "forecast_grid": [
+        6.4323373,
+        3.3948028
+      ],
+      "forecast_input_hashes": {
+        "20250915T00Z": "61d5dd5a0d2b45da62f82c8227a9779de127cef1bba78b5190255f463425a5cc",
+        "20250915T06Z": "b2ae0296d010a577b7b723d11a6bac1765bad6a0bb4b2184967fa7cb775a971f",
+        "20250915T12Z": "141d2617f3506cfd74cf2629a124975204365028e11503002ae23d266c524974"
+      },
+      "forecast_run_at": "2025-09-15T12:00:00Z",
+      "forecast_total_local_day_mm": 31.1,
+      "grid_distance_from_pilot_point_km": 8.7,
+      "peak_accumulations_mm": {
+        "1": 5.2,
+        "24": 32.0,
+        "3": 12.1,
+        "6": 20.6
+      },
+      "shortfall_to_moderate_mm": {
+        "1": 4.8,
+        "24": 18.0,
+        "3": 7.9,
+        "6": 9.4
+      },
+      "source_urls": [
+        "https://punchng.com/motorists-residents-lament-as-flood-submerges-lagos-roads/"
+      ],
+      "station_distance_from_pilot_point_km": 22.1,
+      "station_observation": {
+        "flag": "",
+        "quality": "missing_or_incomplete",
+        "reported_mm": null
+      },
+      "storm_id": "lagos-2025-09-16"
+    }
+  ],
+  "independent_storms": 3,
+  "input_hashes": {
+    "backtest_code": "f268e935e5c3013319438790360d5bd1f81b4dbec32fd438715dc75ed098f8ed",
+    "core_code": "f37037ecf4dc1dcf7e4c527deecf798b09de6eed406f0dad0e9ce6eb5ee05f1a",
+    "daily_code": "ae93811553e5788ad092b971ddc68448cbc9aac450252b1432ecab2d6ad1c3d9",
+    "events": "3141a648df29b5668e52e3ca089f1859be33b3c85d58b32237464b102c4bc11a",
+    "evidence_code": "44132a3c8332e167829b612cf8bcfdeaddb01d391967241c98b084e0522353e0",
+    "evidence_sources": "74b833c4ac6cbe09726f56fc7696cdeceacdaaa1e86848f72f1d6e1ebc2c91a3",
+    "manifest": "88f0099f5a18831428314edceb9232591febe05031cf2f727221b99a48a1c8de",
+    "rainfall_audit": "205487287c6b11d62dfdca1fd0d4a405668ee909a28bfbc14e3cfca40057d95d",
+    "review": "0ce14a36495027535e5e8e9bc8e6a13a5df411c18770fac468f50ab1dd902324"
+  },
+  "limitations": [
+    "Day-level flood presence, not verified onset or street-level rainfall.",
+    "Trailing 24-hour peaks can include modelled antecedent rainfall; they are not daily totals.",
+    "Cycle 49R1 archive is provider-labelled hindcast, not proof of contemporaneous operational forecasts.",
+    "Sensitive-v2 was developed on these examples; no independent accuracy claim or false-alarm estimate."
+  ],
+  "station_documentation": "https://www.ncei.noaa.gov/data/global-summary-of-the-day/doc/readme.txt",
+  "station_sources": [
+    {
+      "cache_file": "cache/rainfall/65201099999-2024.csv",
+      "first_date": "2024-01-01",
+      "last_date": "2024-12-31",
+      "records": 355,
+      "sha256": "7f0d14d9b8aa512cba73172124d11d6684e3cc4a6c479a83952c452cdc6ba04c",
+      "url": "https://www.ncei.noaa.gov/data/global-summary-of-the-day/access/2024/65201099999.csv"
+    },
+    {
+      "cache_file": "cache/rainfall/65201099999-2025.csv",
+      "first_date": "2025-01-01",
+      "last_date": "2025-08-24",
+      "records": 236,
+      "sha256": "256a61a4dfa20ba84e268edf0da1b26a966a22a06755ec06dc1ad464762f5370",
+      "url": "https://www.ncei.noaa.gov/data/global-summary-of-the-day/access/2025/65201099999.csv"
+    }
+  ],
+  "thresholds_mm": {
+    "1": [
+      10,
+      20
+    ],
+    "3": [
+      20,
+      40
+    ],
+    "6": [
+      30,
+      60
+    ],
+    "24": [
+      50,
+      100
+    ]
+  }
+}

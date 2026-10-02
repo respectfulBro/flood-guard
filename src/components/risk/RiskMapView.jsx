@@ -21,16 +21,15 @@ export default function RiskMapView({ areas, showConfidence = false }) {
   return (
     <div className="rounded-2xl overflow-hidden border border-slate-100 h-[520px] w-full">
       <MapContainer
-        center={[2, 20]}
-        zoom={3}
+        center={[6.52, 3.43]}
+        zoom={11}
         scrollWheelZoom
         style={{ height: "100%", width: "100%" }}
       >
         <MapResizer />
         <TileLayer
-          attribution='&copy; OpenStreetMap contributors &copy; CARTO'
-          url="https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png"
-          subdomains={['a', 'b', 'c', 'd']}
+          attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+          url="https://tile.openstreetmap.org/{z}/{x}/{y}.png"
         />
         {areas.map((area) => (
           <CircleMarker
@@ -38,8 +37,8 @@ export default function RiskMapView({ areas, showConfidence = false }) {
             center={[area.lat, area.lng]}
             radius={showConfidence ? (CONFIDENCE_RADIUS[area.confidence] || 9) : 9}
             pathOptions={{
-              color: TIER_HEX[area.risk_tier] || TIER_HEX.low,
-              fillColor: TIER_HEX[area.risk_tier] || TIER_HEX.low,
+              color: TIER_HEX[area.risk_tier] || TIER_HEX.unavailable,
+              fillColor: TIER_HEX[area.risk_tier] || TIER_HEX.unavailable,
               fillOpacity: showConfidence ? 0.35 + (area.confidence === "high" ? 0.35 : area.confidence === "medium" ? 0.2 : 0.05) : 0.6,
               weight: 2,
             }}
@@ -49,7 +48,7 @@ export default function RiskMapView({ areas, showConfidence = false }) {
               <div className="space-y-1.5">
                 <p className="font-semibold text-slate-900">{area.name}</p>
                 <p className="text-xs text-slate-500">{area.country}</p>
-                <RiskBadge tier={area.risk_tier} />
+                <div>{area.data_status === "historical" && <p className="text-xs text-amber-900 mb-1">Historical · {area.event_date}</p>}<RiskBadge tier={area.risk_tier} /></div>
               </div>
             </Popup>
           </CircleMarker>

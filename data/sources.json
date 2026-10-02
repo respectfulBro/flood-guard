@@ -1,0 +1,117 @@
+{
+  "audited_at": "2026-09-25",
+  "verified_non_flood_intervals": 0,
+  "area_selection": "named_area_evidence_available_exact_weather_points_unverified",
+  "live_feed": {
+    "provider": "Open-Meteo / ECMWF",
+    "model": "ecmwf_ifs",
+    "variable": "precipitation",
+    "units": "mm",
+    "interval": "preceding hour",
+    "retrieval": "successful_for_both_candidates",
+    "candidate_grid_points": {
+      "lekki": [
+        6.4323373,
+        3.3948028
+      ],
+      "ikosi-ketu": [
+        6.572935,
+        3.4005039
+      ]
+    },
+    "limitation": "Global model representative points; local flood extent and skill unverified",
+    "license": "CC BY 4.0; free API restricted to non-commercial use",
+    "documentation": "https://open-meteo.com/en/docs/ecmwf-api"
+  },
+  "blocked_event_source": {
+    "name": "NiMet State of the Climate 2024",
+    "status": "download_returned_browser_challenge_not_pdf",
+    "labels_imported": 0,
+    "url": "https://nimet.gov.ng/downloader?file=admin%2Fuploads%2Fpublications%2F67a3837604c26_2024+State+of+the+Climate.pdf"
+  },
+  "not_connected": [
+    "IMERG observations",
+    "ensemble rainfall",
+    "local gauges",
+    "drainage",
+    "terrain susceptibility",
+    "tide and river conditions"
+  ],
+  "validation_status": "Insufficient evidence; uncalibrated rainfall screen only",
+  "historical_backtest": {
+    "provider": "Open-Meteo Single Runs",
+    "endpoint": "https://single-runs-api.open-meteo.com/v1/forecast",
+    "smoke_period": [
+      "2024-07-01",
+      "2024-07-03"
+    ],
+    "imported_runs": 134,
+    "unavailable_runs": 22,
+    "antecedents": "Earlier cached runs, not observations; incomplete warmup excluded",
+    "issue_time": "Initialization + 6h (simulated)",
+    "limitation": "Cycle 49R1 hindcasts; not proof of operational forecast skill in 2024/2025",
+    "documentation": "https://open-meteo.com/en/docs/single-runs-api",
+    "download_periods": [
+      [
+        "2024-07-01",
+        "2024-07-03"
+      ],
+      [
+        "2025-07-30",
+        "2025-08-31"
+      ],
+      [
+        "2025-09-14",
+        "2025-09-16"
+      ]
+    ],
+    "daily_issue_time": "Midnight Lagos; latest cached run available under initialization + 6h rule",
+    "daily_results": {
+      "hits": 0,
+      "misses": 4,
+      "unknowns": 0,
+      "distinct_storms": 3,
+      "false_alarm_ratio": null
+    }
+  },
+  "groundsource": {
+    "url": "https://zenodo.org/records/18647054",
+    "file": "groundsource_2026.parquet",
+    "checksum_md5": "cd1b5de6508f7aad8e1d1d0dd4cecea6",
+    "checksum_verified": true,
+    "search_bounds_wgs84": [
+      2.7,
+      6.3,
+      4.4,
+      6.8
+    ],
+    "candidate_records": 2966,
+    "archive_period_candidates": 590,
+    "labels_approved": 4,
+    "schema": "UUID, area_km2, WKB geometry, start_date, end_date; no original article URLs",
+    "limitation": "Day-level spatial leads only; broad polygon overlap does not establish a pilot-area flood. Independent sources needed for precise onset and cause.",
+    "pilot_overlapping_candidates_reviewed": 87,
+    "date_groups_reviewed": 47,
+    "approval_scope": "Assistant public-source review for named-area daily flood presence; not field verification",
+    "review_file": "data/backtest/review.json"
+  },
+  "public_source_reviewed_flood_observations": 4,
+  "distinct_reviewed_storms": 3,
+  "field_verified_flood_events": 0,
+  "active_screen": {
+    "version": "rainfall-screen-sensitive-v2",
+    "selection": "Detection-prioritizing engineering policy after examining known misses; not independent validation",
+    "probability": null,
+    "confidence": "unvalidated",
+    "development_hits": 4,
+    "development_misses": 0,
+    "august_2025_alert_area_days": 10,
+    "august_2025_covered_area_days": 58,
+    "august_2025_unknown_alert_outcomes": 9
+  },
+  "rainfall_investigation": {
+    "source": "NOAA GSOD 65201099999 Lagos/Ikeja",
+    "report": "data/backtest/rainfall-audit.json",
+    "use": "Post-event regional diagnosis only; not pilot-point truth, flood labels, or historical forecast inputs"
+  }
+}

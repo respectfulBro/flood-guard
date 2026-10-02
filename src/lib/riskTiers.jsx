@@ -1,4 +1,6 @@
 export const TIER_HEX = {
+  stale: "#64748b",
+  unavailable: "#64748b",
   low: "#10b981",
   moderate: "#f59e0b",
   high: "#e11d48",

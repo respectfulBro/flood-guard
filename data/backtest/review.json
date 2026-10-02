@@ -1,0 +1,1017 @@
+{
+  "version": "lagos-evidence-review-v1",
+  "candidate_records": 87,
+  "groups_reviewed": 47,
+  "method": "First-pass public-web evidence review, before running daily predictions. Date-specific and month/area searches; source leads opened for accepted labels. Not an exhaustive census. Search scope fields describe the investigated dates, not literal search transcripts.",
+  "acceptance": "Credible original reporting with attributable local observations, or independent corroboration. Named-area daily evaluation only; no claim of flooding at the weather point.",
+  "non_flood_review": "Searched for explicit no-flood/monitored dry-day evidence in Lekki and Ikosi-Ketu, 2024\u20132025. No full-day area-matched negative observations verified. Unresolved records are not negatives.",
+  "sources": {
+    "july-cable": {
+      "url": "https://www.thecable.ng/photos-commuters-stranded-homes-submerged-as-flood-ravages-lagos/",
+      "publisher": "TheCable",
+      "published_date": "2024-07-03",
+      "finding": "Contemporaneous reporting identifies Lekki among locations flooded on July 3.",
+      "excerpt": "Some residents woke up to find their homes and estates flooded.",
+      "reviewed_by": "Codex assistant",
+      "accessed_on": "2026-09-25"
+    },
+    "july-punch-lekki": {
+      "url": "https://punchng.com/10-hour-rainfall-lekki-ikoyi-residents-flee-luxury-mansions-as-flood-ravages-homes-streets/",
+      "publisher": "Punch",
+      "published_date": "2024-07-07",
+      "finding": "Reporter visited Lekki Phase II on Wednesday evening. The article incorrectly calls July 4 a Wednesday; contemporaneous July 3 reporting resolves the storm date.",
+      "excerpt": "our correspondent visited a popular estate in the Lekki Phase II area on Wednesday evening",
+      "reviewed_by": "Codex assistant",
+      "accessed_on": "2026-09-25"
+    },
+    "july-punch-ketu": {
+      "url": "https://punchng.com/10-states-battling-flooding-21-others-at-risk-fg-warns/",
+      "publisher": "Punch",
+      "published_date": "2024-07-05",
+      "finding": "Original interviews identify an Ikosi-Ketu flood casualty on Wednesday, July 3. Exact flood onset is not established.",
+      "excerpt": "on Wednesday in the Ikosi area of Ketu in Lagos",
+      "reviewed_by": "Codex assistant",
+      "accessed_on": "2026-09-25"
+    },
+    "july-pulse": {
+      "url": "https://www.pulse.ng/news/metro/sad-day-in-lagos-as-pupil-returning-home-from-school-swept-away-by-flood/fdr71td",
+      "publisher": "Pulse / Daily Trust",
+      "published_date": "2024-07-03",
+      "finding": "Contemporaneous secondary report places the incident on Taiwo Street, Ikosi-Ketu, on July 3. Its underlying reporting is credited to Daily Trust.",
+      "excerpt": "on Taiwo Street in Ikosi, Ketu, Lagos",
+      "reviewed_by": "Codex assistant",
+      "accessed_on": "2026-09-25"
+    },
+    "aug-channels": {
+      "url": "https://www.channelstv.com/2025/08/04/lagos-communities-flooded-vehicles-submerged-after-marathon-rainfall/",
+      "publisher": "Channels Television",
+      "published_date": "2025-08-04",
+      "finding": "Reports flooding in Lekki on Monday, August 4 following rainfall beginning Sunday night. Flood presence is supported; exact onset is unknown.",
+      "excerpt": "were flooded on Monday",
+      "reviewed_by": "Codex assistant",
+      "accessed_on": "2026-09-25"
+    },
+    "aug-guardian": {
+      "url": "https://guardian.ng/news/nigeria/metro/nimet-prediction-lagos-assures-residents-over-flash-flood-effects/",
+      "publisher": "Guardian / Lagos commissioner",
+      "published_date": "2025-08-07",
+      "finding": "Official account confirms Monday flooding affected the Agungi corridor of Lekki. Used to corroborate location and day.",
+      "excerpt": "areas around the Agungi corridor of Lekki",
+      "reviewed_by": "Codex assistant",
+      "accessed_on": "2026-09-25"
+    },
+    "sept-punch": {
+      "url": "https://punchng.com/motorists-residents-lament-as-flood-submerges-lagos-roads/",
+      "publisher": "Punch",
+      "published_date": "2025-09-17",
+      "finding": "Reporter received a resident video and interviewed a resident in Osapa London, Lekki. The event was Tuesday, September 16, not the publication date.",
+      "excerpt": "In a video sent to our correspondent by a resident of Osapa London in the Lekki area",
+      "reviewed_by": "Codex assistant",
+      "accessed_on": "2026-09-25"
+    },
+    "sept-cable": {
+      "url": "https://www.thecable.ng/houses-vehicles-submerged-as-flood-ravages-lagos-communities/",
+      "publisher": "TheCable",
+      "published_date": "2025-09-24",
+      "finding": "Reports flooding across September 23 and 24, including Lekki Phase 1. The first onset day is not securely isolated across the named places.",
+      "excerpt": "Lekki Phase 1, Lekki Expressway",
+      "reviewed_by": "Codex assistant",
+      "accessed_on": "2026-09-25"
+    },
+    "sept-radio": {
+      "url": "https://radionigerialagos.gov.ng/flood-disrupts-movement-businesses-across-lagos-communities/",
+      "publisher": "Radio Nigeria Lagos",
+      "published_date": "2025-09-25",
+      "finding": "Reports Wednesday flooding and official comment about Kusenla, Lekki. Retained with the September 23\u201324 episode rather than counting another independent storm.",
+      "excerpt": "flooding in Kusenla, Lekki",
+      "reviewed_by": "Codex assistant",
+      "accessed_on": "2026-09-25"
+    },
+    "may-guardian": {
+      "url": "https://guardian.ng/news/nigeria/metro/flash-flood-reignites-debate-over-lagos-environmental-challenges/",
+      "publisher": "Guardian",
+      "published_date": "2025-05-20",
+      "finding": "Identifies Saturday May 17 rainfall flooding in Lekki. A second independently sourced local account was not established during this review.",
+      "excerpt": "particularly in Lekki, Ikoyi, and Lagos Island",
+      "reviewed_by": "Codex assistant",
+      "accessed_on": "2026-09-25"
+    },
+    "oct-nema": {
+      "url": "https://nema.gov.ng/impact-assessment-of-dam-water-release-by-ogun-osun-river-basin-development-authority-orbda/",
+      "publisher": "NEMA",
+      "published_date": "2024-10",
+      "finding": "Official assessment concerns dam release and river water; do not score it as a new rainfall-only flash flood. Onset dates are not resolved.",
+      "excerpt": "Communities impacted are Kara, Ikosi ketu",
+      "reviewed_by": "Codex assistant",
+      "accessed_on": "2026-09-25"
+    },
+    "june-video": {
+      "url": "https://www.youtube.com/watch?v=vFpGx3LQ2Ic",
+      "publisher": "Olawole Ishola",
+      "published_date": "2024-06-27",
+      "finding": "First-person description names Chisco Bus Stop in Lekki but calls June 24 a Tuesday; June 24 was Monday. Retain unresolved date.",
+      "excerpt": "Tuesday, 24th June",
+      "reviewed_by": "Codex assistant",
+      "accessed_on": "2026-09-25"
+    },
+    "june-lady": {
+      "url": "https://www.yabaleftonline.ng/lekki-flood-almost-carried-me-lady-seeks-help-from-street-boys-as-her-car-stuck-amid-island-flood-water-video/",
+      "publisher": "YabaLeftOnline",
+      "published_date": "2024-06-28",
+      "finding": "Reports a social video in Lekki without establishing when the incident occurred. Publication date is not an event date.",
+      "excerpt": "",
+      "reviewed_by": "Codex assistant",
+      "accessed_on": "2026-09-25"
+    }
+  },
+  "groups": [
+    {
+      "start_date": "2024-04-01",
+      "end_date": "2024-04-01",
+      "id": "candidate-2024-04-01",
+      "status": "unresolved",
+      "review_note": "Search found a ferry announcement using flood metaphorically and a forecast outlook; no confirmed pilot-area incident.",
+      "source_ids": [],
+      "candidate_ids": [
+        "0eb7779ba64f4e658817fed89cf2cfcb",
+        "70735b62149e430cb54aa3ed5218419b",
+        "ec3df7a1b4f94ccda636d87168b92954"
+      ],
+      "areas": [
+        "ikosi-ketu",
+        "lekki"
+      ],
+      "search_scope": "Lagos Lekki Ikosi Ketu flood 2024-04-01 to 2024-04-01",
+      "reviewer": "Codex assistant",
+      "reviewed_at": "2026-09-25T15:41:57.916667Z"
+    },
+    {
+      "start_date": "2024-04-27",
+      "end_date": "2024-04-28",
+      "id": "candidate-2024-04-27",
+      "status": "unresolved",
+      "review_note": "No dated pilot-area flood account established; unrelated Lagos reports and a 2023 flooding article excluded.",
+      "source_ids": [],
+      "candidate_ids": [
+        "7c2f96c4113b43f9a60cb393167a278a",
+        "ad8165d328eb428cb92f9c1d8c34a596"
+      ],
+      "areas": [
+        "ikosi-ketu",
+        "lekki"
+      ],
+      "search_scope": "Lagos Lekki Ikosi Ketu flood 2024-04-27 to 2024-04-28",
+      "reviewer": "Codex assistant",
+      "reviewed_at": "2026-09-25T15:41:57.916667Z"
+    },
+    {
+      "start_date": "2024-05-06",
+      "end_date": "2024-05-06",
+      "id": "candidate-2024-05-06",
+      "status": "unresolved",
+      "review_note": "Drainage rescue reporting does not establish a rainfall flood in the pilot area on this date.",
+      "source_ids": [],
+      "candidate_ids": [
+        "9dadfacf40ab4df997c6cd81305b10c7"
+      ],
+      "areas": [
+        "ikosi-ketu"
+      ],
+      "search_scope": "Lagos Lekki Ikosi Ketu flood 2024-05-06 to 2024-05-06",
+      "reviewer": "Codex assistant",
+      "reviewed_at": "2026-09-25T15:41:57.916667Z"
+    },
+    {
+      "start_date": "2024-05-19",
+      "end_date": "2024-05-22",
+      "id": "candidate-2024-05-19",
+      "status": "unresolved",
+      "review_note": "Broad May/June Lagos flood assessments do not establish this pilot location and interval.",
+      "source_ids": [],
+      "candidate_ids": [
+        "a7f0db4610b34306a1eb71027b3724b1"
+      ],
+      "areas": [
+        "ikosi-ketu"
+      ],
+      "search_scope": "Lagos Lekki Ikosi Ketu flood 2024-05-19 to 2024-05-22",
+      "reviewer": "Codex assistant",
+      "reviewed_at": "2026-09-25T15:41:57.916667Z"
+    },
+    {
+      "start_date": "2024-06-06",
+      "end_date": "2024-06-07",
+      "id": "candidate-2024-06-06",
+      "status": "unresolved",
+      "review_note": "Found Lagos-Ibadan Long Bridge flooding, outside the named pilot locations.",
+      "source_ids": [],
+      "candidate_ids": [
+        "03b35b4013fa482c80e945b4e5a0398a",
+        "d820a4e66353495c859d2f64fee6d12c"
+      ],
+      "areas": [
+        "ikosi-ketu",
+        "lekki"
+      ],
+      "search_scope": "Lagos Lekki Ikosi Ketu flood 2024-06-06 to 2024-06-07",
+      "reviewer": "Codex assistant",
+      "reviewed_at": "2026-09-25T15:41:57.916667Z"
+    },
+    {
+      "start_date": "2024-06-12",
+      "end_date": "2024-06-13",
+      "id": "candidate-2024-06-12",
+      "status": "unresolved",
+      "review_note": "Broad Lagos assessment lacks a precise pilot-area incident date.",
+      "source_ids": [],
+      "candidate_ids": [
+        "9d0733e56e2948e986e3850293b93fd0"
+      ],
+      "areas": [
+        "lekki"
+      ],
+      "search_scope": "Lagos Lekki Ikosi Ketu flood 2024-06-12 to 2024-06-13",
+      "reviewer": "Codex assistant",
+      "reviewed_at": "2026-09-25T15:41:57.916667Z"
+    },
+    {
+      "start_date": "2024-06-14",
+      "end_date": "2024-06-17",
+      "id": "candidate-2024-06-14",
+      "status": "unresolved",
+      "review_note": "No independently dated pilot-area flood outcome established.",
+      "source_ids": [],
+      "candidate_ids": [
+        "6cf82bc9b68049168cb7e9cf4cb4ee31"
+      ],
+      "areas": [
+        "lekki"
+      ],
+      "search_scope": "Lagos Lekki Ikosi Ketu flood 2024-06-14 to 2024-06-17",
+      "reviewer": "Codex assistant",
+      "reviewed_at": "2026-09-25T15:41:57.916667Z"
+    },
+    {
+      "start_date": "2024-06-24",
+      "end_date": "2024-06-26",
+      "id": "candidate-2024-06-24",
+      "status": "context",
+      "review_note": "First-person Lekki video has a weekday/date contradiction; no exact date chosen.",
+      "source_ids": [
+        "june-video"
+      ],
+      "candidate_ids": [
+        "0bb5f80da74d4b469418ddb4e30e657d",
+        "40fef4b40d194e9d82a6cef1cffa3b7c",
+        "4323909c6fec4ce2ad26612e960791a0",
+        "e7d296513d7145ea9c8c057f2af2c4ae",
+        "f647b18308f64d4f8140800c50fc6f4a",
+        "fa5449639d56460ba788dd0456d3a244"
+      ],
+      "areas": [
+        "ikosi-ketu",
+        "lekki"
+      ],
+      "search_scope": "Lagos Lekki Ikosi Ketu flood 2024-06-24 to 2024-06-26",
+      "reviewer": "Codex assistant",
+      "reviewed_at": "2026-09-25T15:41:57.916667Z"
+    },
+    {
+      "start_date": "2024-06-28",
+      "end_date": "2024-06-28",
+      "id": "candidate-2024-06-28",
+      "status": "context",
+      "review_note": "Incident exists in social reporting but its date is not established.",
+      "source_ids": [
+        "june-lady"
+      ],
+      "candidate_ids": [
+        "c29c488a21c142babe40297bfe8301f3"
+      ],
+      "areas": [
+        "lekki"
+      ],
+      "search_scope": "Lagos Lekki Ikosi Ketu flood 2024-06-28 to 2024-06-28",
+      "reviewer": "Codex assistant",
+      "reviewed_at": "2026-09-25T15:41:57.916667Z"
+    },
+    {
+      "start_date": "2024-07-01",
+      "end_date": "2024-07-05",
+      "id": "candidate-2024-07-01",
+      "status": "accepted",
+      "review_note": "July 3 established for both named areas. The broader candidate interval is not treated as five floods.",
+      "source_ids": [
+        "july-cable",
+        "july-punch-lekki",
+        "july-punch-ketu",
+        "july-pulse"
+      ],
+      "candidate_ids": [
+        "a977f3ef8c024093ba46eb31d8a6824c",
+        "6f219826ea8c4ec28a2f592e8c246262",
+        "c73250359bf2422e9f06b9a24b27773f",
+        "e48b0aa00a544942bfb2f3044da2b2bd",
+        "fd941ed87e4f4ed79b4b4361405f092a",
+        "8cb7a7690a36437e8c375baa7c0f1c6f",
+        "fd8f585b1a59472c87132426be980629"
+      ],
+      "areas": [
+        "ikosi-ketu",
+        "lekki"
+      ],
+      "search_scope": "Lagos Lekki Ikosi Ketu flood 2024-07-01 to 2024-07-05",
+      "reviewer": "Codex assistant",
+      "reviewed_at": "2026-09-25T15:41:57.916667Z"
+    },
+    {
+      "start_date": "2024-07-07",
+      "end_date": "2024-07-07",
+      "id": "candidate-2024-07-07",
+      "status": "duplicate",
+      "review_note": "Follow-up coverage of the July 3 storm, not evidence of a new July 7 onset.",
+      "source_ids": [
+        "july-punch-lekki"
+      ],
+      "candidate_ids": [
+        "6a741a506f464828994dbfeb2555f228",
+        "739bfd8f57844d4ba7202ed37ddafb6d"
+      ],
+      "areas": [
+        "ikosi-ketu",
+        "lekki"
+      ],
+      "search_scope": "Lagos Lekki Ikosi Ketu flood 2024-07-07 to 2024-07-07",
+      "reviewer": "Codex assistant",
+      "reviewed_at": "2026-09-25T15:41:57.916667Z"
+    },
+    {
+      "start_date": "2024-07-08",
+      "end_date": "2024-07-10",
+      "id": "candidate-2024-07-08",
+      "status": "unresolved",
+      "review_note": "Search located retrospective July 3 discussion and a Lagos-wide July 10 photo; a new pilot-area episode was not established.",
+      "source_ids": [],
+      "candidate_ids": [
+        "89e5eb99f3c64add996caf61c5c5ce43",
+        "151fc3ed54114ad3b9659d72c318d961",
+        "4f00e02e11604eaf8ccaf03c2b8235df",
+        "999e7cb9033b4bfdb1acf046fa22af3b",
+        "9c413551851b484888f044b9168ce248"
+      ],
+      "areas": [
+        "ikosi-ketu",
+        "lekki"
+      ],
+      "search_scope": "Lagos Lekki Ikosi Ketu flood 2024-07-08 to 2024-07-10",
+      "reviewer": "Codex assistant",
+      "reviewed_at": "2026-09-25T15:41:57.916667Z"
+    },
+    {
+      "start_date": "2024-07-23",
+      "end_date": "2024-07-23",
+      "id": "candidate-2024-07-23",
+      "status": "unresolved",
+      "review_note": "No pilot-area event corroborated for this date.",
+      "source_ids": [],
+      "candidate_ids": [
+        "5e029642247f465593c0069c2f5654d8"
+      ],
+      "areas": [
+        "ikosi-ketu"
+      ],
+      "search_scope": "Lagos Lekki Ikosi Ketu flood 2024-07-23 to 2024-07-23",
+      "reviewer": "Codex assistant",
+      "reviewed_at": "2026-09-25T15:41:57.916667Z"
+    },
+    {
+      "start_date": "2024-08-04",
+      "end_date": "2024-08-04",
+      "id": "candidate-2024-08-04",
+      "status": "unresolved",
+      "review_note": "No 2024 incident corroborated; matching August 2025 stories must not be reassigned.",
+      "source_ids": [],
+      "candidate_ids": [
+        "5bcacb6365ec471fb42d3400e5856f46",
+        "bbe96b6144f541eca264babfa98a8fba"
+      ],
+      "areas": [
+        "lekki"
+      ],
+      "search_scope": "Lagos Lekki Ikosi Ketu flood 2024-08-04 to 2024-08-04",
+      "reviewer": "Codex assistant",
+      "reviewed_at": "2026-09-25T15:41:57.916667Z"
+    },
+    {
+      "start_date": "2024-08-30",
+      "end_date": "2024-08-30",
+      "id": "candidate-2024-08-30",
+      "status": "unresolved",
+      "review_note": "Ketu search located robbery reporting, not a dated flood observation.",
+      "source_ids": [],
+      "candidate_ids": [
+        "98aafad1343e42809a84a35bfed41bf3"
+      ],
+      "areas": [
+        "ikosi-ketu"
+      ],
+      "search_scope": "Lagos Lekki Ikosi Ketu flood 2024-08-30 to 2024-08-30",
+      "reviewer": "Codex assistant",
+      "reviewed_at": "2026-09-25T15:41:57.916667Z"
+    },
+    {
+      "start_date": "2024-09-07",
+      "end_date": "2024-09-11",
+      "id": "candidate-2024-09-07",
+      "status": "unresolved",
+      "review_note": "National flood reports do not establish a pilot-area incident in this interval.",
+      "source_ids": [],
+      "candidate_ids": [
+        "01c0e2b7c91f4b619298f2a634aec02c"
+      ],
+      "areas": [
+        "ikosi-ketu"
+      ],
+      "search_scope": "Lagos Lekki Ikosi Ketu flood 2024-09-07 to 2024-09-11",
+      "reviewer": "Codex assistant",
+      "reviewed_at": "2026-09-25T15:41:57.916667Z"
+    },
+    {
+      "start_date": "2024-10-12",
+      "end_date": "2024-10-12",
+      "id": "candidate-2024-10-12",
+      "status": "context",
+      "review_note": "River/dam-release assessment; onset and rainfall-only cause are not established.",
+      "source_ids": [
+        "oct-nema"
+      ],
+      "candidate_ids": [
+        "75c3b2b066a34ce89dea69576923ced0",
+        "c3297c7e9e1c4355b4f51824e8a0ab4a"
+      ],
+      "areas": [
+        "ikosi-ketu"
+      ],
+      "search_scope": "Lagos Lekki Ikosi Ketu flood 2024-10-12 to 2024-10-12",
+      "reviewer": "Codex assistant",
+      "reviewed_at": "2026-09-25T15:41:57.916667Z"
+    },
+    {
+      "start_date": "2024-10-16",
+      "end_date": "2024-10-17",
+      "id": "candidate-2024-10-16",
+      "status": "context",
+      "review_note": "Potential overlap with ongoing dam-release flooding; no distinct rainfall episode established.",
+      "source_ids": [
+        "oct-nema"
+      ],
+      "candidate_ids": [
+        "760ae3cb116f4b43876ada5d1f1f9b56",
+        "6ad26fc7ccf54b9384201b2a45e44469"
+      ],
+      "areas": [
+        "ikosi-ketu"
+      ],
+      "search_scope": "Lagos Lekki Ikosi Ketu flood 2024-10-16 to 2024-10-17",
+      "reviewer": "Codex assistant",
+      "reviewed_at": "2026-09-25T15:41:57.916667Z"
+    },
+    {
+      "start_date": "2024-10-22",
+      "end_date": "2024-10-22",
+      "id": "candidate-2024-10-22",
+      "status": "context",
+      "review_note": "National cumulative situation report is not a new pilot-area flood onset.",
+      "source_ids": [
+        "oct-nema"
+      ],
+      "candidate_ids": [
+        "e46ea63bf49446cbb327fc33ead6714c"
+      ],
+      "areas": [
+        "ikosi-ketu"
+      ],
+      "search_scope": "Lagos Lekki Ikosi Ketu flood 2024-10-22 to 2024-10-22",
+      "reviewer": "Codex assistant",
+      "reviewed_at": "2026-09-25T15:41:57.916667Z"
+    },
+    {
+      "start_date": "2024-10-24",
+      "end_date": "2024-10-24",
+      "id": "candidate-2024-10-24",
+      "status": "context",
+      "review_note": "Ongoing river-flood context; no independently dated new rainfall flood established.",
+      "source_ids": [
+        "oct-nema"
+      ],
+      "candidate_ids": [
+        "31e5642ec77041438768b16c15b98b89"
+      ],
+      "areas": [
+        "ikosi-ketu"
+      ],
+      "search_scope": "Lagos Lekki Ikosi Ketu flood 2024-10-24 to 2024-10-24",
+      "reviewer": "Codex assistant",
+      "reviewed_at": "2026-09-25T15:41:57.916667Z"
+    },
+    {
+      "start_date": "2024-11-17",
+      "end_date": "2024-11-17",
+      "id": "candidate-2024-11-17",
+      "status": "unresolved",
+      "review_note": "No pilot-area outcome established; weather observations alone do not prove flooding.",
+      "source_ids": [],
+      "candidate_ids": [
+        "cdd34ea1aa2848c9b0d828114420b206"
+      ],
+      "areas": [
+        "ikosi-ketu",
+        "lekki"
+      ],
+      "search_scope": "Lagos Lekki Ikosi Ketu flood 2024-11-17 to 2024-11-17",
+      "reviewer": "Codex assistant",
+      "reviewed_at": "2026-09-25T15:41:57.916667Z"
+    },
+    {
+      "start_date": "2024-11-27",
+      "end_date": "2024-11-27",
+      "id": "candidate-2024-11-27",
+      "status": "unresolved",
+      "review_note": "No pilot-area outcome established; absence of reporting is not a negative label.",
+      "source_ids": [],
+      "candidate_ids": [
+        "335cc473ed624012b538f9a8dfd70249"
+      ],
+      "areas": [
+        "ikosi-ketu",
+        "lekki"
+      ],
+      "search_scope": "Lagos Lekki Ikosi Ketu flood 2024-11-27 to 2024-11-27",
+      "reviewer": "Codex assistant",
+      "reviewed_at": "2026-09-25T15:41:57.916667Z"
+    },
+    {
+      "start_date": "2024-12-01",
+      "end_date": "2024-12-06",
+      "id": "candidate-2024-12-01",
+      "status": "unresolved",
+      "review_note": "No dated pilot-area flood account established in the candidate interval.",
+      "source_ids": [],
+      "candidate_ids": [
+        "c5d91474b1094369832f24c21c20869a"
+      ],
+      "areas": [
+        "ikosi-ketu",
+        "lekki"
+      ],
+      "search_scope": "Lagos Lekki Ikosi Ketu flood 2024-12-01 to 2024-12-06",
+      "reviewer": "Codex assistant",
+      "reviewed_at": "2026-09-25T15:41:57.916667Z"
+    },
+    {
+      "start_date": "2025-04-11",
+      "end_date": "2025-04-14",
+      "id": "candidate-2025-04-11",
+      "status": "context",
+      "review_note": "Lagos Island drainage works and Ketu market reopening are not evidence of flooding in Ikosi-Ketu.",
+      "source_ids": [],
+      "candidate_ids": [
+        "e7eb2860c79944b48a1142df49cb5208"
+      ],
+      "areas": [
+        "ikosi-ketu"
+      ],
+      "search_scope": "Lagos Lekki Ikosi Ketu flood 2025-04-11 to 2025-04-14",
+      "reviewer": "Codex assistant",
+      "reviewed_at": "2026-09-25T15:41:57.916667Z"
+    },
+    {
+      "start_date": "2025-04-28",
+      "end_date": "2025-04-29",
+      "id": "candidate-2025-04-28",
+      "status": "context",
+      "review_note": "Safety advice and drainage clearance announcements do not establish a pilot flood.",
+      "source_ids": [],
+      "candidate_ids": [
+        "1664ff8977744190925c905c8465b4fd"
+      ],
+      "areas": [
+        "ikosi-ketu"
+      ],
+      "search_scope": "Lagos Lekki Ikosi Ketu flood 2025-04-28 to 2025-04-29",
+      "reviewer": "Codex assistant",
+      "reviewed_at": "2026-09-25T15:41:57.916667Z"
+    },
+    {
+      "start_date": "2025-05-01",
+      "end_date": "2025-05-02",
+      "id": "candidate-2025-05-01",
+      "status": "unresolved",
+      "review_note": "No pilot-area observed event established.",
+      "source_ids": [],
+      "candidate_ids": [
+        "ce9d72a9a2b44b28b3cf871467bee7d1"
+      ],
+      "areas": [
+        "ikosi-ketu"
+      ],
+      "search_scope": "Lagos Lekki Ikosi Ketu flood 2025-05-01 to 2025-05-02",
+      "reviewer": "Codex assistant",
+      "reviewed_at": "2026-09-25T15:41:57.916667Z"
+    },
+    {
+      "start_date": "2025-05-17",
+      "end_date": "2025-05-18",
+      "id": "candidate-2025-05-17",
+      "status": "context",
+      "review_note": "Saturday resolves to May 17, but local independent corroboration remains insufficient.",
+      "source_ids": [
+        "may-guardian"
+      ],
+      "candidate_ids": [
+        "c5f6555953f341ae87f03ee35a4c956d",
+        "31e013ebb43d4aa2a2a91e06f47e96a7"
+      ],
+      "areas": [
+        "ikosi-ketu",
+        "lekki"
+      ],
+      "search_scope": "Lagos Lekki Ikosi Ketu flood 2025-05-17 to 2025-05-18",
+      "reviewer": "Codex assistant",
+      "reviewed_at": "2026-09-25T15:41:57.916667Z"
+    },
+    {
+      "start_date": "2025-05-20",
+      "end_date": "2025-05-21",
+      "id": "candidate-2025-05-20",
+      "status": "context",
+      "review_note": "Tidal explanation is broad; Alakuko fatality is outside pilots. No precise pilot-area rainfall outcome accepted.",
+      "source_ids": [],
+      "candidate_ids": [
+        "4251ecf9b33346f3b6be7e1907e8e2ee",
+        "5a6847cb0e58420fb385cfabfe97efb1"
+      ],
+      "areas": [
+        "ikosi-ketu",
+        "lekki"
+      ],
+      "search_scope": "Lagos Lekki Ikosi Ketu flood 2025-05-20 to 2025-05-21",
+      "reviewer": "Codex assistant",
+      "reviewed_at": "2026-09-25T15:41:57.916667Z"
+    },
+    {
+      "start_date": "2025-05-28",
+      "end_date": "2025-05-28",
+      "id": "candidate-2025-05-28",
+      "status": "context",
+      "review_note": "Prominent date-matched flood was in Mokwa, outside Lagos pilots.",
+      "source_ids": [],
+      "candidate_ids": [
+        "a7e4bf135d4046f694259fd7ad2dd24c"
+      ],
+      "areas": [
+        "ikosi-ketu"
+      ],
+      "search_scope": "Lagos Lekki Ikosi Ketu flood 2025-05-28 to 2025-05-28",
+      "reviewer": "Codex assistant",
+      "reviewed_at": "2026-09-25T15:41:57.916667Z"
+    },
+    {
+      "start_date": "2025-06-09",
+      "end_date": "2025-06-09",
+      "id": "candidate-2025-06-09",
+      "status": "context",
+      "review_note": "Weather bulletins are predictions, not observed outcomes.",
+      "source_ids": [],
+      "candidate_ids": [
+        "6eb7e6bd5eae490798f79997db1c66e4"
+      ],
+      "areas": [
+        "ikosi-ketu",
+        "lekki"
+      ],
+      "search_scope": "Lagos Lekki Ikosi Ketu flood 2025-06-09 to 2025-06-09",
+      "reviewer": "Codex assistant",
+      "reviewed_at": "2026-09-25T15:41:57.916667Z"
+    },
+    {
+      "start_date": "2025-06-13",
+      "end_date": "2025-06-14",
+      "id": "candidate-2025-06-13",
+      "status": "context",
+      "review_note": "Flood preparedness campaign and warnings are not observed pilot floods.",
+      "source_ids": [],
+      "candidate_ids": [
+        "3aa090f8ce9647298d8f21e44ca8965a",
+        "bf2be5f5a55e4be2ab5be1a537ea0120"
+      ],
+      "areas": [
+        "ikosi-ketu",
+        "lekki"
+      ],
+      "search_scope": "Lagos Lekki Ikosi Ketu flood 2025-06-13 to 2025-06-14",
+      "reviewer": "Codex assistant",
+      "reviewed_at": "2026-09-25T15:41:57.916667Z"
+    },
+    {
+      "start_date": "2025-07-07",
+      "end_date": "2025-07-07",
+      "id": "candidate-2025-07-07",
+      "status": "context",
+      "review_note": "Flood outlooks do not establish an observed Lekki event.",
+      "source_ids": [],
+      "candidate_ids": [
+        "1dc5ca3068b84da6bf90f167904e8706"
+      ],
+      "areas": [
+        "lekki"
+      ],
+      "search_scope": "Lagos Lekki Ikosi Ketu flood 2025-07-07 to 2025-07-07",
+      "reviewer": "Codex assistant",
+      "reviewed_at": "2026-09-25T15:41:57.916667Z"
+    },
+    {
+      "start_date": "2025-07-09",
+      "end_date": "2025-07-09",
+      "id": "candidate-2025-07-09",
+      "status": "context",
+      "review_note": "Broad tidal explanation and a soakaway accident do not establish the date of a new pilot flood.",
+      "source_ids": [],
+      "candidate_ids": [
+        "38e24acdd8664aaeae340f5e3ed2bcb8",
+        "4438a47d4cff4cd887076849b1374465"
+      ],
+      "areas": [
+        "ikosi-ketu",
+        "lekki"
+      ],
+      "search_scope": "Lagos Lekki Ikosi Ketu flood 2025-07-09 to 2025-07-09",
+      "reviewer": "Codex assistant",
+      "reviewed_at": "2026-09-25T15:41:57.916667Z"
+    },
+    {
+      "start_date": "2025-07-12",
+      "end_date": "2025-07-12",
+      "id": "candidate-2025-07-12",
+      "status": "unresolved",
+      "review_note": "No corroborated pilot-area flood; local-election reporting is not outcome evidence.",
+      "source_ids": [],
+      "candidate_ids": [
+        "7c3334309f1b405c8167bedab8d09049"
+      ],
+      "areas": [
+        "lekki"
+      ],
+      "search_scope": "Lagos Lekki Ikosi Ketu flood 2025-07-12 to 2025-07-12",
+      "reviewer": "Codex assistant",
+      "reviewed_at": "2026-09-25T15:41:57.916667Z"
+    },
+    {
+      "start_date": "2025-07-23",
+      "end_date": "2025-07-23",
+      "id": "candidate-2025-07-23",
+      "status": "context",
+      "review_note": "Flood mitigation committee and federal warnings do not establish a dated local flood.",
+      "source_ids": [],
+      "candidate_ids": [
+        "96fd18a21f0744dea1850994f70de376",
+        "f0d34455ef95479d9448209555b7736c"
+      ],
+      "areas": [
+        "lekki"
+      ],
+      "search_scope": "Lagos Lekki Ikosi Ketu flood 2025-07-23 to 2025-07-23",
+      "reviewer": "Codex assistant",
+      "reviewed_at": "2026-09-25T15:41:57.916667Z"
+    },
+    {
+      "start_date": "2025-07-25",
+      "end_date": "2025-07-25",
+      "id": "candidate-2025-07-25",
+      "status": "unresolved",
+      "review_note": "Traffic bulletin is not proof of flooding or of a full dry day.",
+      "source_ids": [],
+      "candidate_ids": [
+        "c290911ddc854794be3b75ceb4e9e6df",
+        "e71a81bda51d40c980abec9e6f56ca7c"
+      ],
+      "areas": [
+        "lekki"
+      ],
+      "search_scope": "Lagos Lekki Ikosi Ketu flood 2025-07-25 to 2025-07-25",
+      "reviewer": "Codex assistant",
+      "reviewed_at": "2026-09-25T15:41:57.916667Z"
+    },
+    {
+      "start_date": "2025-07-30",
+      "end_date": "2025-07-30",
+      "id": "candidate-2025-07-30",
+      "status": "unresolved",
+      "review_note": "Broad national episode dates do not establish a pilot-area flood on this day.",
+      "source_ids": [],
+      "candidate_ids": [
+        "048d87c393044feaa5a2e8273cf9e53b"
+      ],
+      "areas": [
+        "ikosi-ketu",
+        "lekki"
+      ],
+      "search_scope": "Lagos Lekki Ikosi Ketu flood 2025-07-30 to 2025-07-30",
+      "reviewer": "Codex assistant",
+      "reviewed_at": "2026-09-25T15:41:57.916667Z"
+    },
+    {
+      "start_date": "2025-08-03",
+      "end_date": "2025-08-07",
+      "id": "candidate-2025-08-03",
+      "status": "accepted",
+      "review_note": "August 4 flood presence in Lekki corroborated by reporting and an official account. No Ketu label inferred.",
+      "source_ids": [
+        "aug-channels",
+        "aug-guardian"
+      ],
+      "candidate_ids": [
+        "465852534b344a4abccdd4a8ea9f301d",
+        "76c35baa4ea64da299efb77642e3db1b",
+        "7aa8b09859fd4a58b0efd8926621e0bf",
+        "cbfc26fb3f114d5386deaa67631763d9",
+        "e47a11b7ccc24b0c81de831b2e21a74f",
+        "fbdb7f9e1f14416cb1cadf39ed834287"
+      ],
+      "areas": [
+        "ikosi-ketu",
+        "lekki"
+      ],
+      "search_scope": "Lagos Lekki Ikosi Ketu flood 2025-08-03 to 2025-08-07",
+      "reviewer": "Codex assistant",
+      "reviewed_at": "2026-09-25T15:41:57.916667Z"
+    },
+    {
+      "start_date": "2025-08-20",
+      "end_date": "2025-08-22",
+      "id": "candidate-2025-08-20",
+      "status": "unresolved",
+      "review_note": "Later NEMA Lagos assessments do not resolve a specific Ikosi-Ketu incident here.",
+      "source_ids": [],
+      "candidate_ids": [
+        "b3687933ae884950a21820a9c705822e"
+      ],
+      "areas": [
+        "ikosi-ketu"
+      ],
+      "search_scope": "Lagos Lekki Ikosi Ketu flood 2025-08-20 to 2025-08-22",
+      "reviewer": "Codex assistant",
+      "reviewed_at": "2026-09-25T15:41:57.916667Z"
+    },
+    {
+      "start_date": "2025-09-02",
+      "end_date": "2025-09-02",
+      "id": "candidate-2025-09-02",
+      "status": "context",
+      "review_note": "Weather warning not a local observed flood.",
+      "source_ids": [],
+      "candidate_ids": [
+        "05efac4a7efb4f16b0dbdf4d737dc879"
+      ],
+      "areas": [
+        "lekki"
+      ],
+      "search_scope": "Lagos Lekki Ikosi Ketu flood 2025-09-02 to 2025-09-02",
+      "reviewer": "Codex assistant",
+      "reviewed_at": "2026-09-25T15:41:57.916667Z"
+    },
+    {
+      "start_date": "2025-09-04",
+      "end_date": "2025-09-04",
+      "id": "candidate-2025-09-04",
+      "status": "unresolved",
+      "review_note": "Broad state-level flood chronology does not establish Lekki occurrence on this date.",
+      "source_ids": [],
+      "candidate_ids": [
+        "0395be96b93b47c69828ac0641e563f7"
+      ],
+      "areas": [
+        "lekki"
+      ],
+      "search_scope": "Lagos Lekki Ikosi Ketu flood 2025-09-04 to 2025-09-04",
+      "reviewer": "Codex assistant",
+      "reviewed_at": "2026-09-25T15:41:57.916667Z"
+    },
+    {
+      "start_date": "2025-09-08",
+      "end_date": "2025-09-09",
+      "id": "candidate-2025-09-08",
+      "status": "context",
+      "review_note": "Found September 9 news lead; insufficient independently checked local timing evidence for approval.",
+      "source_ids": [],
+      "candidate_ids": [
+        "6e8922b92650477696de8277fccb61d0",
+        "4dba7b3f9c3e4972945d48f50796c2ae",
+        "f854f0bb384a43e0a0a6b405206ba7f4"
+      ],
+      "areas": [
+        "ikosi-ketu",
+        "lekki"
+      ],
+      "search_scope": "Lagos Lekki Ikosi Ketu flood 2025-09-08 to 2025-09-09",
+      "reviewer": "Codex assistant",
+      "reviewed_at": "2026-09-25T15:41:57.916667Z"
+    },
+    {
+      "start_date": "2025-09-11",
+      "end_date": "2025-09-11",
+      "id": "candidate-2025-09-11",
+      "status": "context",
+      "review_note": "NEMA assessment concerns Alimosho, not the candidate Lekki point.",
+      "source_ids": [],
+      "candidate_ids": [
+        "7ea8a49b9f1c431ba3994f4bd8118854"
+      ],
+      "areas": [
+        "lekki"
+      ],
+      "search_scope": "Lagos Lekki Ikosi Ketu flood 2025-09-11 to 2025-09-11",
+      "reviewer": "Codex assistant",
+      "reviewed_at": "2026-09-25T15:41:57.916667Z"
+    },
+    {
+      "start_date": "2025-09-17",
+      "end_date": "2025-09-18",
+      "id": "candidate-2025-09-17",
+      "status": "accepted",
+      "review_note": "Firsthand resident evidence establishes September 16 in Osapa London, Lekki; candidate publication date corrected.",
+      "source_ids": [
+        "sept-punch"
+      ],
+      "candidate_ids": [
+        "08c321123d9d42868ca339c1a3eaf6d2",
+        "844de116c8d64ae08848beedacb77f93"
+      ],
+      "areas": [
+        "ikosi-ketu",
+        "lekki"
+      ],
+      "search_scope": "Lagos Lekki Ikosi Ketu flood 2025-09-17 to 2025-09-18",
+      "reviewer": "Codex assistant",
+      "reviewed_at": "2026-09-25T15:41:57.916667Z"
+    },
+    {
+      "start_date": "2025-09-21",
+      "end_date": "2025-09-25",
+      "id": "candidate-2025-09-21",
+      "status": "context",
+      "review_note": "Flooding is documented on September 23\u201324, but locations and first onset date vary; retain the range.",
+      "source_ids": [
+        "sept-cable",
+        "sept-radio"
+      ],
+      "candidate_ids": [
+        "6578db3fd842438d951aae6a948f5b70",
+        "1883d79fdba2430bbcda0300a072a62f",
+        "27ce40176fa3465daa6b07bfbfc7dc16",
+        "4dbb9d0d07b349aba7fa9123fbbceba0"
+      ],
+      "areas": [
+        "ikosi-ketu",
+        "lekki"
+      ],
+      "search_scope": "Lagos Lekki Ikosi Ketu flood 2025-09-21 to 2025-09-25",
+      "reviewer": "Codex assistant",
+      "reviewed_at": "2026-09-25T15:41:57.916667Z"
+    },
+    {
+      "start_date": "2025-10-03",
+      "end_date": "2025-10-03",
+      "id": "candidate-2025-10-03",
+      "status": "unresolved",
+      "review_note": "A damaged-car follow-up does not establish a new Ikosi-Ketu flood on October 3.",
+      "source_ids": [],
+      "candidate_ids": [
+        "5247d69122db4e05b850f0b00211f32e"
+      ],
+      "areas": [
+        "ikosi-ketu"
+      ],
+      "search_scope": "Lagos Lekki Ikosi Ketu flood 2025-10-03 to 2025-10-03",
+      "reviewer": "Codex assistant",
+      "reviewed_at": "2026-09-25T15:41:57.916667Z"
+    },
+    {
+      "start_date": "2025-10-04",
+      "end_date": "2025-10-05",
+      "id": "candidate-2025-10-04",
+      "status": "context",
+      "review_note": "Flood warning and later reports do not establish a new dated Lekki episode.",
+      "source_ids": [],
+      "candidate_ids": [
+        "1b05c8342d4b486da3f52979eca5e0cb"
+      ],
+      "areas": [
+        "lekki"
+      ],
+      "search_scope": "Lagos Lekki Ikosi Ketu flood 2025-10-04 to 2025-10-05",
+      "reviewer": "Codex assistant",
+      "reviewed_at": "2026-09-25T15:41:57.916667Z"
+    }
+  ]
+}

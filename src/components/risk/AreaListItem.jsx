@@ -16,7 +16,7 @@ export default function AreaListItem({ area }) {
         </div>
       </div>
       <div className="flex items-center gap-3 shrink-0">
-        <RiskBadge tier={area.risk_tier} />
+        <div>{area.data_status === "historical" && <p className="text-xs text-amber-900 mb-1">Historical · {area.event_date}</p>}<RiskBadge tier={area.risk_tier} /></div>
         <ChevronRight className="w-4 h-4 text-slate-300" />
       </div>
     </Link>

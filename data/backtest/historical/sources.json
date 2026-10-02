@@ -1,0 +1,403 @@
+{
+  "0995a38017c85852bef2a7c3571cb44b370de4b331203d0f91afea72457948a1": {
+    "bytes": 3979,
+    "cache_file": "cache/sources/1f80a3f776cd7aaed4a44248b97e2e8c23f22b7c2c0fde3f4ea4ca429f3bd34e.bin",
+    "content_type": "application/json",
+    "final_url": "https://archive-api.open-meteo.com/v1/archive?latitude=6.4474%2C6.6018&longitude=3.4723%2C3.3895&start_date=2022-06-16&end_date=2022-06-18&hourly=precipitation&models=era5&timezone=UTC&cell_selection=nearest",
+    "id": "0995a38017c85852bef2a7c3571cb44b370de4b331203d0f91afea72457948a1",
+    "import_method": "http",
+    "retrieved_at": "2026-09-30T18:54:07.242722Z",
+    "sha256": "1f80a3f776cd7aaed4a44248b97e2e8c23f22b7c2c0fde3f4ea4ca429f3bd34e",
+    "status": "unreviewed",
+    "url": "https://archive-api.open-meteo.com/v1/archive?latitude=6.4474%2C6.6018&longitude=3.4723%2C3.3895&start_date=2022-06-16&end_date=2022-06-18&hourly=precipitation&models=era5&timezone=UTC&cell_selection=nearest"
+  },
+  "18b2337012ad02b397a8312d9be3b514aa1ed8ed5b979878e996b3e79acea610": {
+    "bytes": 651355,
+    "cache_file": "cache/sources/629b1d491195aa99d6e0fa8391a06e6f046a2471c5d840cb7a382f1ef912b747.bin",
+    "content_type": "text/html",
+    "final_url": "https://guardian.ng/news/roads-houses-flooded-as-rain-pounds-lagos/",
+    "id": "18b2337012ad02b397a8312d9be3b514aa1ed8ed5b979878e996b3e79acea610",
+    "import_method": "http",
+    "metadata": {
+      "article:published_time": "2023-04-28T02:21:06+00:00",
+      "og:site_name": "The Guardian Nigeria News - Nigeria and World News",
+      "og:title": "Roads, houses flooded as rain pounds Lagos"
+    },
+    "retrieved_at": "2026-09-30T18:54:10.265765Z",
+    "sha256": "629b1d491195aa99d6e0fa8391a06e6f046a2471c5d840cb7a382f1ef912b747",
+    "status": "unreviewed",
+    "text_file": "cache/sources/18b2337012ad02b397a8312d9be3b514aa1ed8ed5b979878e996b3e79acea610.txt",
+    "text_sha256": "399ab825a988b63d7151b06b9fa8ea2dffda9091bdf343db1ceed38ffbdeb501",
+    "url": "https://guardian.ng/news/roads-houses-flooded-as-rain-pounds-lagos/"
+  },
+  "230751d7160c7c86659e70121308dd874b3a7dcd5fb7a6fcb60185f6d7cc94e3": {
+    "bytes": 648965,
+    "cache_file": "cache/sources/54663c6496001fbbbe4e9393c031e15bc4ae6d27bde0b5b2e39aada845fc717c.bin",
+    "content_type": "text/html",
+    "final_url": "https://guardian.ng/news/flood-takes-over-lekki-epe-expressway/",
+    "id": "230751d7160c7c86659e70121308dd874b3a7dcd5fb7a6fcb60185f6d7cc94e3",
+    "import_method": "http",
+    "metadata": {
+      "article:published_time": "2016-06-22T00:23:17+00:00",
+      "og:site_name": "The Guardian Nigeria News - Nigeria and World News",
+      "og:title": "Flood takes over Lekki-Epe Expressway"
+    },
+    "retrieved_at": "2026-09-30T18:54:09.286986Z",
+    "sha256": "54663c6496001fbbbe4e9393c031e15bc4ae6d27bde0b5b2e39aada845fc717c",
+    "status": "unreviewed",
+    "text_file": "cache/sources/230751d7160c7c86659e70121308dd874b3a7dcd5fb7a6fcb60185f6d7cc94e3.txt",
+    "text_sha256": "54422f7ffabce9240ba50ff33b6ceb2945e952f532c8d6f6aebff3bdec546e25",
+    "url": "https://guardian.ng/news/flood-takes-over-lekki-epe-expressway/"
+  },
+  "29f8ea740cfdc855ba3f302ff8d64d45659d15a3756b6b4319c34f85b6aa60b6": {
+    "bytes": 167800,
+    "cache_file": "cache/sources/e9ca6ea783394708286f7d7336535d0c7e97daf4097a660c56d0ef129ccc59d6.bin",
+    "content_type": "text/html",
+    "final_url": "https://punchng.com/rainfall-lagos-residents-lament-flooding-transport-fare-hike/",
+    "id": "29f8ea740cfdc855ba3f302ff8d64d45659d15a3756b6b4319c34f85b6aa60b6",
+    "import_method": "http",
+    "metadata": {
+      "article:published_time": "2022-07-10T23:30:20+00:00",
+      "og:site_name": "Punch Newspapers",
+      "og:title": "Rainfall: Lagos residents lament flooding, transport fare hike"
+    },
+    "retrieved_at": "2026-09-30T18:54:14.329500Z",
+    "sha256": "e9ca6ea783394708286f7d7336535d0c7e97daf4097a660c56d0ef129ccc59d6",
+    "status": "unreviewed",
+    "text_file": "cache/sources/29f8ea740cfdc855ba3f302ff8d64d45659d15a3756b6b4319c34f85b6aa60b6.txt",
+    "text_sha256": "b57b66bee5b417f3918dc7c53fc2446848dbc7ac7e45ea27c451ddb54142640e",
+    "url": "https://punchng.com/rainfall-lagos-residents-lament-flooding-transport-fare-hike/"
+  },
+  "39eb326adfe8f7fcd46ed3762e391d1365bb5c9c32c721c4b7e74da2601449b5": {
+    "bytes": 163386,
+    "cache_file": "cache/sources/e1d935759f051cedcb52d2d8cb6273437eed0f02456708907c95c217e9217851.bin",
+    "content_type": "text/html",
+    "final_url": "https://punchng.com/rain-pounds-lagos-houses-roads-flooded-property-destroyed/",
+    "id": "39eb326adfe8f7fcd46ed3762e391d1365bb5c9c32c721c4b7e74da2601449b5",
+    "import_method": "http",
+    "metadata": {
+      "article:published_time": "2022-06-18T23:57:52+00:00",
+      "og:site_name": "Punch Newspapers",
+      "og:title": "Rain pounds Lagos, houses, roads flooded, property destroyed"
+    },
+    "retrieved_at": "2026-09-30T18:54:14.045783Z",
+    "sha256": "e1d935759f051cedcb52d2d8cb6273437eed0f02456708907c95c217e9217851",
+    "status": "unreviewed",
+    "text_file": "cache/sources/39eb326adfe8f7fcd46ed3762e391d1365bb5c9c32c721c4b7e74da2601449b5.txt",
+    "text_sha256": "ef72ced8cec45a213fc522fe195374bca7ef0e0ee45f518c520e0704b98fb8a0",
+    "url": "https://punchng.com/rain-pounds-lagos-houses-roads-flooded-property-destroyed/"
+  },
+  "45c75bf47c37f0eb22d2073b05c60ec4b5edbf949fadb96a9ee3b92fe39280e7": {
+    "bytes": 106120,
+    "cache_file": "cache/sources/8d853d1189eb605aa79565780bf2beecff5cff60987d5b7775ee22c13e80b108.bin",
+    "content_type": "text/html",
+    "final_url": "https://businessday.ng/news/article/flooding-economic-activities-paralysed-as-nature-empties-its-bowel-in-lagos/",
+    "id": "45c75bf47c37f0eb22d2073b05c60ec4b5edbf949fadb96a9ee3b92fe39280e7",
+    "import_method": "http",
+    "metadata": {
+      "article:published_time": "2020-06-18T01:30:13+00:00",
+      "og:site_name": "Businessday NG",
+      "og:title": "Flooding: Economic activities paralysed as nature empties its bowel in Lagos - Businessday NG"
+    },
+    "retrieved_at": "2026-09-30T18:54:08.452236Z",
+    "sha256": "8d853d1189eb605aa79565780bf2beecff5cff60987d5b7775ee22c13e80b108",
+    "status": "unreviewed",
+    "text_file": "cache/sources/45c75bf47c37f0eb22d2073b05c60ec4b5edbf949fadb96a9ee3b92fe39280e7.txt",
+    "text_sha256": "8bb8365e702300f096c16b3a1da2b9ad28ffcac7731a5f48c9d5ba0ccd12527b",
+    "url": "https://businessday.ng/news/article/flooding-economic-activities-paralysed-as-nature-empties-its-bowel-in-lagos/"
+  },
+  "55dda4810e39635e6164da278ed3cd3f8904ceecf05d4b9410bf595db76bdc1f": {
+    "bytes": 67821,
+    "cache_file": "cache/sources/0c29061ca9d9d2f5cf2048cd1c474163bf01986aef15c0ea914a8368fbf4ed34.bin",
+    "content_type": "text/csv",
+    "final_url": "https://www.ncei.noaa.gov/data/global-summary-of-the-day/access/2017/65201099999.csv",
+    "id": "55dda4810e39635e6164da278ed3cd3f8904ceecf05d4b9410bf595db76bdc1f",
+    "import_method": "http",
+    "metadata": {},
+    "retrieved_at": "2026-09-30T18:54:18.319771Z",
+    "sha256": "0c29061ca9d9d2f5cf2048cd1c474163bf01986aef15c0ea914a8368fbf4ed34",
+    "status": "unreviewed",
+    "text_file": "cache/sources/55dda4810e39635e6164da278ed3cd3f8904ceecf05d4b9410bf595db76bdc1f.txt",
+    "text_sha256": "0c29061ca9d9d2f5cf2048cd1c474163bf01986aef15c0ea914a8368fbf4ed34",
+    "url": "https://www.ncei.noaa.gov/data/global-summary-of-the-day/access/2017/65201099999.csv"
+  },
+  "63256286260a7b7686e4ce724ab3b41c4e0a77ae7c99cd8d8d60a093580e0091": {
+    "bytes": 519928,
+    "cache_file": "cache/sources/b269ffd512e3766d99bd48e25b87eaae5f62f6ed8e3d2c0ad46d9b985eaa0824.bin",
+    "content_type": "text/html",
+    "final_url": "https://naijagists.com/photos-lagosians-battle-flooding-obalende-mushin-lekki-vi-streets-flooded/",
+    "id": "63256286260a7b7686e4ce724ab3b41c4e0a77ae7c99cd8d8d60a093580e0091",
+    "import_method": "http",
+    "metadata": {
+      "article:published_time": "2015-06-11T05:02:21+00:00",
+      "og:site_name": "NaijaGists.com - Nigerian News, Health Tips, Business Ideas & Motivation Blog",
+      "og:title": "Lagosians Battle Flooding: Obalende, Mushin, Lekki, VI Streets Flooded After Heavy Rainfall - NaijaGists.com - Nigerian News, Gist And Music Blog"
+    },
+    "retrieved_at": "2026-09-30T18:54:12.172897Z",
+    "sha256": "b269ffd512e3766d99bd48e25b87eaae5f62f6ed8e3d2c0ad46d9b985eaa0824",
+    "status": "unreviewed",
+    "text_file": "cache/sources/63256286260a7b7686e4ce724ab3b41c4e0a77ae7c99cd8d8d60a093580e0091.txt",
+    "text_sha256": "a272f9514e7e963ec33b9768c8a3b8df70c28881fd94b8bb8aa510df1ac79c27",
+    "url": "https://naijagists.com/photos-lagosians-battle-flooding-obalende-mushin-lekki-vi-streets-flooded/"
+  },
+  "66f8fc95b859d13bed86ce9d90a059035402485ead10d6dc0cca65f35c601952": {
+    "bytes": 190224,
+    "cache_file": "cache/sources/9109c240bff89cbeab9b4a65a98efc7f2f55758d3add81b933f2d6e5651b6c94.bin",
+    "content_type": "text/html",
+    "final_url": "https://punchng.com/downpour-gas-man-drowns-lekki-ikorodu-residents-landlords-flee/",
+    "id": "66f8fc95b859d13bed86ce9d90a059035402485ead10d6dc0cca65f35c601952",
+    "import_method": "http",
+    "metadata": {
+      "article:published_time": "2019-10-14T11:11:29+00:00",
+      "og:site_name": "Punch Newspapers",
+      "og:title": "Downpour: Gas man drowns, Lekki, Ikorodu residents, landlords flee"
+    },
+    "retrieved_at": "2026-09-30T18:54:13.353545Z",
+    "sha256": "9109c240bff89cbeab9b4a65a98efc7f2f55758d3add81b933f2d6e5651b6c94",
+    "status": "unreviewed",
+    "text_file": "cache/sources/66f8fc95b859d13bed86ce9d90a059035402485ead10d6dc0cca65f35c601952.txt",
+    "text_sha256": "79f5f738f7cf4d7b1e125e132312f15ed51ffa1801cd88785aff172c93cedf4c",
+    "url": "https://punchng.com/downpour-gas-man-drowns-lekki-ikorodu-residents-landlords-flee/"
+  },
+  "69f937509957d780ae5f67de33be09d998f5ba06d9cc98f5361ea1feb1b73df9": {
+    "bytes": 3977,
+    "cache_file": "cache/sources/b37adc966f3ecfe2d00195543e947fc5358a8c869f65bedd46efa3bf9d13615c.bin",
+    "content_type": "application/json",
+    "final_url": "https://archive-api.open-meteo.com/v1/archive?latitude=6.4474%2C6.6018&longitude=3.4723%2C3.3895&start_date=2023-09-14&end_date=2023-09-16&hourly=precipitation&models=era5&timezone=UTC&cell_selection=nearest",
+    "id": "69f937509957d780ae5f67de33be09d998f5ba06d9cc98f5361ea1feb1b73df9",
+    "import_method": "http",
+    "retrieved_at": "2026-09-30T18:54:07.687226Z",
+    "sha256": "b37adc966f3ecfe2d00195543e947fc5358a8c869f65bedd46efa3bf9d13615c",
+    "status": "unreviewed",
+    "url": "https://archive-api.open-meteo.com/v1/archive?latitude=6.4474%2C6.6018&longitude=3.4723%2C3.3895&start_date=2023-09-14&end_date=2023-09-16&hourly=precipitation&models=era5&timezone=UTC&cell_selection=nearest"
+  },
+  "6c6ed9d91dd6f3a67d301d47be1b2e88a1ddeb79d9c576e3d5d8cd2a609c4307": {
+    "bytes": 82901,
+    "cache_file": "cache/sources/aaba1de9116238859ff9a3344225dcd11bc0f703866f40d5383cf9dbf8f9eea2.bin",
+    "content_type": "text/csv",
+    "final_url": "https://www.ncei.noaa.gov/data/global-summary-of-the-day/access/2023/65201099999.csv",
+    "id": "6c6ed9d91dd6f3a67d301d47be1b2e88a1ddeb79d9c576e3d5d8cd2a609c4307",
+    "import_method": "http",
+    "metadata": {},
+    "retrieved_at": "2026-09-30T18:54:18.985043Z",
+    "sha256": "aaba1de9116238859ff9a3344225dcd11bc0f703866f40d5383cf9dbf8f9eea2",
+    "status": "unreviewed",
+    "text_file": "cache/sources/6c6ed9d91dd6f3a67d301d47be1b2e88a1ddeb79d9c576e3d5d8cd2a609c4307.txt",
+    "text_sha256": "aaba1de9116238859ff9a3344225dcd11bc0f703866f40d5383cf9dbf8f9eea2",
+    "url": "https://www.ncei.noaa.gov/data/global-summary-of-the-day/access/2023/65201099999.csv"
+  },
+  "9af4f842820c27a93dc6389c30a8f56850ece9150fe9f929498356d7162b3b27": {
+    "bytes": 3979,
+    "cache_file": "cache/sources/d06c3366d73e6ea2de381573d17c744d4644976024260caa724014869368dd54.bin",
+    "content_type": "application/json",
+    "final_url": "https://archive-api.open-meteo.com/v1/archive?latitude=6.4474%2C6.6018&longitude=3.4723%2C3.3895&start_date=2020-06-16&end_date=2020-06-18&hourly=precipitation&models=era5&timezone=UTC&cell_selection=nearest",
+    "id": "9af4f842820c27a93dc6389c30a8f56850ece9150fe9f929498356d7162b3b27",
+    "import_method": "http",
+    "retrieved_at": "2026-09-30T18:54:06.424268Z",
+    "sha256": "d06c3366d73e6ea2de381573d17c744d4644976024260caa724014869368dd54",
+    "status": "unreviewed",
+    "url": "https://archive-api.open-meteo.com/v1/archive?latitude=6.4474%2C6.6018&longitude=3.4723%2C3.3895&start_date=2020-06-16&end_date=2020-06-18&hourly=precipitation&models=era5&timezone=UTC&cell_selection=nearest"
+  },
+  "9f83d226a8ccbe3092d609c48192daf8bc247de2fdc17ea13a6fb2307b821567": {
+    "bytes": 3989,
+    "cache_file": "cache/sources/74256995c79a2e72623edcaffda35817b4ac44f0c996753afb3e9273cbd7a869.bin",
+    "content_type": "application/json",
+    "final_url": "https://archive-api.open-meteo.com/v1/archive?latitude=6.4474%2C6.6018&longitude=3.4723%2C3.3895&start_date=2021-07-14&end_date=2021-07-16&hourly=precipitation&models=era5&timezone=UTC&cell_selection=nearest",
+    "id": "9f83d226a8ccbe3092d609c48192daf8bc247de2fdc17ea13a6fb2307b821567",
+    "import_method": "http",
+    "retrieved_at": "2026-09-30T18:54:06.815542Z",
+    "sha256": "74256995c79a2e72623edcaffda35817b4ac44f0c996753afb3e9273cbd7a869",
+    "status": "unreviewed",
+    "url": "https://archive-api.open-meteo.com/v1/archive?latitude=6.4474%2C6.6018&longitude=3.4723%2C3.3895&start_date=2021-07-14&end_date=2021-07-16&hourly=precipitation&models=era5&timezone=UTC&cell_selection=nearest"
+  },
+  "a1cb326d20ba969e0a6520f130b21df97fe13559551eb5f80c07206f15d5c18e": {
+    "bytes": 84061,
+    "cache_file": "cache/sources/3ed756ff8c68ad7302a16798a345c2e5f98195ecd5fb616293f0a3b09d9c396c.bin",
+    "content_type": "text/csv",
+    "final_url": "https://www.ncei.noaa.gov/data/global-summary-of-the-day/access/2022/65201099999.csv",
+    "id": "a1cb326d20ba969e0a6520f130b21df97fe13559551eb5f80c07206f15d5c18e",
+    "import_method": "http",
+    "metadata": {},
+    "retrieved_at": "2026-09-30T18:54:18.809793Z",
+    "sha256": "3ed756ff8c68ad7302a16798a345c2e5f98195ecd5fb616293f0a3b09d9c396c",
+    "status": "unreviewed",
+    "text_file": "cache/sources/a1cb326d20ba969e0a6520f130b21df97fe13559551eb5f80c07206f15d5c18e.txt",
+    "text_sha256": "3ed756ff8c68ad7302a16798a345c2e5f98195ecd5fb616293f0a3b09d9c396c",
+    "url": "https://www.ncei.noaa.gov/data/global-summary-of-the-day/access/2022/65201099999.csv"
+  },
+  "a8049ed99a15b5b1d49fd4a9a8017e2bb9b05edf2738ea10b7dbe78f8dc2bd9a": {
+    "bytes": 161999,
+    "cache_file": "cache/sources/5268cc4726fefafc5311e11ea5fe296cc39c35f9b0bf3eaacf3ff5a85f80cd90.bin",
+    "content_type": "text/html",
+    "final_url": "https://punchng.com/video-flood-lekki-residents-abandon-homes/",
+    "id": "a8049ed99a15b5b1d49fd4a9a8017e2bb9b05edf2738ea10b7dbe78f8dc2bd9a",
+    "import_method": "http",
+    "metadata": {
+      "article:published_time": "2017-07-08T16:02:59+00:00",
+      "og:site_name": "Punch Newspapers",
+      "og:title": "[VIDEO]: Flood: Lekki residents abandon homes"
+    },
+    "retrieved_at": "2026-09-30T18:54:16.269880Z",
+    "sha256": "5268cc4726fefafc5311e11ea5fe296cc39c35f9b0bf3eaacf3ff5a85f80cd90",
+    "status": "unreviewed",
+    "text_file": "cache/sources/a8049ed99a15b5b1d49fd4a9a8017e2bb9b05edf2738ea10b7dbe78f8dc2bd9a.txt",
+    "text_sha256": "2925c7f6d6ee7516770fb304981cd04a437106ce75d9dd0b422b51ac0a59f8a9",
+    "url": "https://punchng.com/video-flood-lekki-residents-abandon-homes/"
+  },
+  "ac4d73fc8b7a2f4d424cbeea2499758ed6cfba113fb9e0401c9cbdf6d01b3925": {
+    "bytes": 99879,
+    "cache_file": "cache/sources/c4620cba2b442d06b18d3baefd00fcbead1b1ef21c2975cd53e36b3c2081b15f.bin",
+    "content_type": "text/html",
+    "final_url": "https://www.channelstv.com/2017/07/08/lagosians-lament-as-flood-hits-lekki-victoria-island/",
+    "id": "ac4d73fc8b7a2f4d424cbeea2499758ed6cfba113fb9e0401c9cbdf6d01b3925",
+    "import_method": "http",
+    "metadata": {
+      "article:published_time": "2017-07-08T20:14:27+00:00",
+      "og:site_name": "Channels Television",
+      "og:title": "Lagosians Lament As Flood Hits Lekki, Victoria Island"
+    },
+    "retrieved_at": "2026-09-30T18:54:18.129592Z",
+    "sha256": "c4620cba2b442d06b18d3baefd00fcbead1b1ef21c2975cd53e36b3c2081b15f",
+    "status": "unreviewed",
+    "text_file": "cache/sources/ac4d73fc8b7a2f4d424cbeea2499758ed6cfba113fb9e0401c9cbdf6d01b3925.txt",
+    "text_sha256": "66312fa60ced646ea73046fd275784b739bfe48ddf7a7c0e3ff02f1613455132",
+    "url": "https://www.channelstv.com/2017/07/08/lagosians-lament-as-flood-hits-lekki-victoria-island/"
+  },
+  "b701d3cf04d7aa242271fc6eef744d9c2f8aa8a12e4a50f3be0f70bbfd884441": {
+    "bytes": 82669,
+    "cache_file": "cache/sources/fc1115c07e613e9f3d337728bb3566486164d1fdf8a798972161da49153ac69b.bin",
+    "content_type": "text/csv",
+    "final_url": "https://www.ncei.noaa.gov/data/global-summary-of-the-day/access/2021/65201099999.csv",
+    "id": "b701d3cf04d7aa242271fc6eef744d9c2f8aa8a12e4a50f3be0f70bbfd884441",
+    "import_method": "http",
+    "metadata": {},
+    "retrieved_at": "2026-09-30T18:54:18.644943Z",
+    "sha256": "fc1115c07e613e9f3d337728bb3566486164d1fdf8a798972161da49153ac69b",
+    "status": "unreviewed",
+    "text_file": "cache/sources/b701d3cf04d7aa242271fc6eef744d9c2f8aa8a12e4a50f3be0f70bbfd884441.txt",
+    "text_sha256": "fc1115c07e613e9f3d337728bb3566486164d1fdf8a798972161da49153ac69b",
+    "url": "https://www.ncei.noaa.gov/data/global-summary-of-the-day/access/2021/65201099999.csv"
+  },
+  "b77b7f67693fde923e0c9d748c1854b3efa8baf2a12eb5752c761e71562efb8d": {
+    "bytes": 83829,
+    "cache_file": "cache/sources/33f5973b987335234bafd906eb3c35935fafb036ea780c45298325035580623b.bin",
+    "content_type": "text/csv",
+    "final_url": "https://www.ncei.noaa.gov/data/global-summary-of-the-day/access/2020/65201099999.csv",
+    "id": "b77b7f67693fde923e0c9d748c1854b3efa8baf2a12eb5752c761e71562efb8d",
+    "import_method": "http",
+    "metadata": {},
+    "retrieved_at": "2026-09-30T18:54:18.483053Z",
+    "sha256": "33f5973b987335234bafd906eb3c35935fafb036ea780c45298325035580623b",
+    "status": "unreviewed",
+    "text_file": "cache/sources/b77b7f67693fde923e0c9d748c1854b3efa8baf2a12eb5752c761e71562efb8d.txt",
+    "text_sha256": "33f5973b987335234bafd906eb3c35935fafb036ea780c45298325035580623b",
+    "url": "https://www.ncei.noaa.gov/data/global-summary-of-the-day/access/2020/65201099999.csv"
+  },
+  "b947d28c8ef376580f5c53508c27af97c0dec2fd6523211aea7a5371492f4a39": {
+    "bytes": 3979,
+    "cache_file": "cache/sources/224d34c5b849f0699967228f6890b5cd444cd844f8f0b71c7b8730d7a2672915.bin",
+    "content_type": "application/json",
+    "final_url": "https://archive-api.open-meteo.com/v1/archive?latitude=6.4474%2C6.6018&longitude=3.4723%2C3.3895&start_date=2017-07-06&end_date=2017-07-08&hourly=precipitation&models=era5&timezone=UTC&cell_selection=nearest",
+    "id": "b947d28c8ef376580f5c53508c27af97c0dec2fd6523211aea7a5371492f4a39",
+    "import_method": "http",
+    "retrieved_at": "2026-09-30T18:54:05.837531Z",
+    "sha256": "224d34c5b849f0699967228f6890b5cd444cd844f8f0b71c7b8730d7a2672915",
+    "status": "unreviewed",
+    "url": "https://archive-api.open-meteo.com/v1/archive?latitude=6.4474%2C6.6018&longitude=3.4723%2C3.3895&start_date=2017-07-06&end_date=2017-07-08&hourly=precipitation&models=era5&timezone=UTC&cell_selection=nearest"
+  },
+  "bf1d7644ca848b0497ae318b4a95330e0c2cbe8daa5a112f33b05838ad707ace": {
+    "bytes": 202880,
+    "cache_file": "cache/sources/e13c8119324a9d47e23fb0c577eb47955237f62f869d05b6187bc7b0aa9051ac.bin",
+    "content_type": "text/html",
+    "final_url": "https://punchng.com/floods-wreak-havoc-as-residents-ignore-warnings-to-leave-affected-areas/",
+    "id": "bf1d7644ca848b0497ae318b4a95330e0c2cbe8daa5a112f33b05838ad707ace",
+    "import_method": "http",
+    "metadata": {
+      "article:published_time": "2023-06-18T03:53:36+00:00",
+      "og:site_name": "Punch Newspapers",
+      "og:title": "Floods wreak havoc as residents ignore warnings to leave affected areas"
+    },
+    "retrieved_at": "2026-09-30T18:54:13.768598Z",
+    "sha256": "e13c8119324a9d47e23fb0c577eb47955237f62f869d05b6187bc7b0aa9051ac",
+    "status": "unreviewed",
+    "text_file": "cache/sources/bf1d7644ca848b0497ae318b4a95330e0c2cbe8daa5a112f33b05838ad707ace.txt",
+    "text_sha256": "0c6ecf47daef2ee3730d549cd6671ec37aa121a0f2b7905356d17907f71c9e22",
+    "url": "https://punchng.com/floods-wreak-havoc-as-residents-ignore-warnings-to-leave-affected-areas/"
+  },
+  "c15910241853459f23df15ebfde0c0ceb5f9f18ba86b064df1d91c0aa7278e63": {
+    "bytes": 138573,
+    "cache_file": "cache/sources/3d3cac8c6e5bf11d9577e578830a0e15254965d18b528582776a49d272e4d6c2.bin",
+    "content_type": "text/html",
+    "final_url": "https://nairametrics.com/2021/07/16/flood-hits-parts-of-lagos-ogun/",
+    "id": "c15910241853459f23df15ebfde0c0ceb5f9f18ba86b064df1d91c0aa7278e63",
+    "import_method": "http",
+    "metadata": {
+      "article:published_time": "2021-07-16T17:50:31+00:00",
+      "og:site_name": "Nairametrics",
+      "og:title": "Flood hits parts of Lagos, Ogun"
+    },
+    "retrieved_at": "2026-09-30T18:54:12.945686Z",
+    "sha256": "3d3cac8c6e5bf11d9577e578830a0e15254965d18b528582776a49d272e4d6c2",
+    "status": "unreviewed",
+    "text_file": "cache/sources/c15910241853459f23df15ebfde0c0ceb5f9f18ba86b064df1d91c0aa7278e63.txt",
+    "text_sha256": "710435dd7e3fa00e1527820004245ec465e2548681fa1aea84dd0ca38d329b5f",
+    "url": "https://nairametrics.com/2021/07/16/flood-hits-parts-of-lagos-ogun/"
+  },
+  "d97b074086367484bef567f69ed8918931de6b5cbdbd82875974bdbd67e2934c": {
+    "bytes": 157187,
+    "cache_file": "cache/sources/f3766eef673c62754f6f34a3ee9ba42d2c99c46015a84a662bc0d757c42f80d6.bin",
+    "content_type": "text/html",
+    "final_url": "https://www.thecable.ng/photos-flood-takes-over-parts-of-lagos/",
+    "id": "d97b074086367484bef567f69ed8918931de6b5cbdbd82875974bdbd67e2934c",
+    "import_method": "http",
+    "metadata": {
+      "article:published_time": "2020-06-18T11:35:00+00:00",
+      "og:site_name": "TheCable",
+      "og:title": "PHOTOS: Flood takes over parts of Lagos"
+    },
+    "retrieved_at": "2026-09-30T18:54:22.795815Z",
+    "sha256": "f3766eef673c62754f6f34a3ee9ba42d2c99c46015a84a662bc0d757c42f80d6",
+    "status": "unreviewed",
+    "text_file": "cache/sources/d97b074086367484bef567f69ed8918931de6b5cbdbd82875974bdbd67e2934c.txt",
+    "text_sha256": "170d3e0e73c7e162c407f2b87f2e6439556eb41badef8e0c3c28eb4389cbcd0e",
+    "url": "https://www.thecable.ng/photos-flood-takes-over-parts-of-lagos/"
+  },
+  "dae17833de36a0d79fdf96fd7267236067bf827c33ca432db9775d0577edbaa6": {
+    "bytes": 163639,
+    "cache_file": "cache/sources/bd3660ab9e3a18e42e8c7cfab6e75aec6a022b0de2670c1fc8c34ea2639d0ac7.bin",
+    "content_type": "text/html",
+    "final_url": "https://punchng.com/videos-floods-sack-lekki-road-as-lagos-is-drenched-by-rains/",
+    "id": "dae17833de36a0d79fdf96fd7267236067bf827c33ca432db9775d0577edbaa6",
+    "import_method": "http",
+    "metadata": {
+      "article:published_time": "2018-08-13T13:18:37+00:00",
+      "og:site_name": "Punch Newspapers",
+      "og:title": "VIDEOS: Floods sack Lekki road as Lagos is drenched by rains"
+    },
+    "retrieved_at": "2026-09-30T18:54:16.606898Z",
+    "sha256": "bd3660ab9e3a18e42e8c7cfab6e75aec6a022b0de2670c1fc8c34ea2639d0ac7",
+    "status": "unreviewed",
+    "text_file": "cache/sources/dae17833de36a0d79fdf96fd7267236067bf827c33ca432db9775d0577edbaa6.txt",
+    "text_sha256": "a89b358d268a28a691cf708c2dbfb494718716ff10f337f930c3800b4e5932e4",
+    "url": "https://punchng.com/videos-floods-sack-lekki-road-as-lagos-is-drenched-by-rains/"
+  },
+  "e2c7f40b0a097b4d3f98830897947686f17270fa8e6f8bb5751611bb439bb91a": {
+    "bytes": 169454,
+    "cache_file": "cache/sources/2ddea36b42c3a832d569e5c2bf9b82683e009b74cc1889bfdb9fb708887ec664.bin",
+    "content_type": "text/html",
+    "final_url": "https://punchng.com/residents-groan-as-downpour-leaves-lagos-flooded-properties-destroyed/",
+    "id": "e2c7f40b0a097b4d3f98830897947686f17270fa8e6f8bb5751611bb439bb91a",
+    "import_method": "http",
+    "metadata": {
+      "article:published_time": "2023-09-16T23:20:54+00:00",
+      "og:site_name": "Punch Newspapers",
+      "og:title": "Residents groan as downpour leaves Lagos flooded, properties destroyed"
+    },
+    "retrieved_at": "2026-09-30T18:54:14.690969Z",
+    "sha256": "2ddea36b42c3a832d569e5c2bf9b82683e009b74cc1889bfdb9fb708887ec664",
+    "status": "unreviewed",
+    "text_file": "cache/sources/e2c7f40b0a097b4d3f98830897947686f17270fa8e6f8bb5751611bb439bb91a.txt",
+    "text_sha256": "7ecb0dc537338cbee492a58aff65e8ee08e24146ec5a2bd84d0160e474edc5aa",
+    "url": "https://punchng.com/residents-groan-as-downpour-leaves-lagos-flooded-properties-destroyed/"
+  }
+}
